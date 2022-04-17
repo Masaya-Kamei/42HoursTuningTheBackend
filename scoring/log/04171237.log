@@ -1,0 +1,1416 @@
+Stopping development_backend_1  ... 
+Stopping development_nginx_1    ... 
+Stopping development_mysql_1    ... 
+Stopping development_frontend_1 ... 
+Stopping development_frontend_1 ... done
+Stopping development_backend_1  ... done
+Stopping development_nginx_1    ... done
+Stopping development_mysql_1    ... done
+Removing development_backend_1  ... 
+Removing development_nginx_1    ... 
+Removing development_mysql_1    ... 
+Removing development_frontend_1 ... 
+Removing development_nginx_1    ... done
+Removing development_frontend_1 ... done
+Removing development_mysql_1    ... done
+Removing development_backend_1  ... done
+Removing network development_default
+データベースをリストアします...
+'/da/mysql' -> '../../volume/mysql'
+'/da/mysql/auto.cnf' -> '../../volume/mysql/auto.cnf'
+'/da/mysql/ib_buffer_pool' -> '../../volume/mysql/ib_buffer_pool'
+'/da/mysql/ibdata1' -> '../../volume/mysql/ibdata1'
+'/da/mysql/ib_logfile0' -> '../../volume/mysql/ib_logfile0'
+'/da/mysql/ib_logfile1' -> '../../volume/mysql/ib_logfile1'
+'/da/mysql/#ib_16384_0.dblwr' -> '../../volume/mysql/#ib_16384_0.dblwr'
+'/da/mysql/#ib_16384_1.dblwr' -> '../../volume/mysql/#ib_16384_1.dblwr'
+'/da/mysql/mysql.ibd' -> '../../volume/mysql/mysql.ibd'
+'/da/mysql/undo_001' -> '../../volume/mysql/undo_001'
+'/da/mysql/mysql' -> '../../volume/mysql/mysql'
+'/da/mysql/mysql/general_log_213.sdi' -> '../../volume/mysql/mysql/general_log_213.sdi'
+'/da/mysql/mysql/general_log.CSM' -> '../../volume/mysql/mysql/general_log.CSM'
+'/da/mysql/mysql/general_log.CSV' -> '../../volume/mysql/mysql/general_log.CSV'
+'/da/mysql/mysql/slow_log_214.sdi' -> '../../volume/mysql/mysql/slow_log_214.sdi'
+'/da/mysql/mysql/slow_log.CSM' -> '../../volume/mysql/mysql/slow_log.CSM'
+'/da/mysql/mysql/slow_log.CSV' -> '../../volume/mysql/mysql/slow_log.CSV'
+'/da/mysql/undo_002' -> '../../volume/mysql/undo_002'
+'/da/mysql/#innodb_temp' -> '../../volume/mysql/#innodb_temp'
+'/da/mysql/#innodb_temp/temp_1.ibt' -> '../../volume/mysql/#innodb_temp/temp_1.ibt'
+'/da/mysql/#innodb_temp/temp_2.ibt' -> '../../volume/mysql/#innodb_temp/temp_2.ibt'
+'/da/mysql/#innodb_temp/temp_3.ibt' -> '../../volume/mysql/#innodb_temp/temp_3.ibt'
+'/da/mysql/#innodb_temp/temp_4.ibt' -> '../../volume/mysql/#innodb_temp/temp_4.ibt'
+'/da/mysql/#innodb_temp/temp_5.ibt' -> '../../volume/mysql/#innodb_temp/temp_5.ibt'
+'/da/mysql/#innodb_temp/temp_6.ibt' -> '../../volume/mysql/#innodb_temp/temp_6.ibt'
+'/da/mysql/#innodb_temp/temp_7.ibt' -> '../../volume/mysql/#innodb_temp/temp_7.ibt'
+'/da/mysql/#innodb_temp/temp_8.ibt' -> '../../volume/mysql/#innodb_temp/temp_8.ibt'
+'/da/mysql/#innodb_temp/temp_9.ibt' -> '../../volume/mysql/#innodb_temp/temp_9.ibt'
+'/da/mysql/#innodb_temp/temp_10.ibt' -> '../../volume/mysql/#innodb_temp/temp_10.ibt'
+'/da/mysql/ibtmp1' -> '../../volume/mysql/ibtmp1'
+'/da/mysql/performance_schema' -> '../../volume/mysql/performance_schema'
+'/da/mysql/performance_schema/cond_instances_82.sdi' -> '../../volume/mysql/performance_schema/cond_instances_82.sdi'
+'/da/mysql/performance_schema/error_log_83.sdi' -> '../../volume/mysql/performance_schema/error_log_83.sdi'
+'/da/mysql/performance_schema/events_waits_cur_84.sdi' -> '../../volume/mysql/performance_schema/events_waits_cur_84.sdi'
+'/da/mysql/performance_schema/events_waits_his_85.sdi' -> '../../volume/mysql/performance_schema/events_waits_his_85.sdi'
+'/da/mysql/performance_schema/events_waits_his_86.sdi' -> '../../volume/mysql/performance_schema/events_waits_his_86.sdi'
+'/da/mysql/performance_schema/events_waits_sum_87.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_87.sdi'
+'/da/mysql/performance_schema/events_waits_sum_88.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_88.sdi'
+'/da/mysql/performance_schema/events_waits_sum_89.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_89.sdi'
+'/da/mysql/performance_schema/events_waits_sum_90.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_90.sdi'
+'/da/mysql/performance_schema/events_waits_sum_91.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_91.sdi'
+'/da/mysql/performance_schema/events_waits_sum_92.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_92.sdi'
+'/da/mysql/performance_schema/file_instances_93.sdi' -> '../../volume/mysql/performance_schema/file_instances_93.sdi'
+'/da/mysql/performance_schema/file_summary_by__94.sdi' -> '../../volume/mysql/performance_schema/file_summary_by__94.sdi'
+'/da/mysql/performance_schema/file_summary_by__95.sdi' -> '../../volume/mysql/performance_schema/file_summary_by__95.sdi'
+'/da/mysql/performance_schema/host_cache_96.sdi' -> '../../volume/mysql/performance_schema/host_cache_96.sdi'
+'/da/mysql/performance_schema/mutex_instances_97.sdi' -> '../../volume/mysql/performance_schema/mutex_instances_97.sdi'
+'/da/mysql/performance_schema/objects_summary__98.sdi' -> '../../volume/mysql/performance_schema/objects_summary__98.sdi'
+'/da/mysql/performance_schema/performance_time_99.sdi' -> '../../volume/mysql/performance_schema/performance_time_99.sdi'
+'/da/mysql/performance_schema/processlist_100.sdi' -> '../../volume/mysql/performance_schema/processlist_100.sdi'
+'/da/mysql/performance_schema/rwlock_instances_101.sdi' -> '../../volume/mysql/performance_schema/rwlock_instances_101.sdi'
+'/da/mysql/performance_schema/setup_actors_102.sdi' -> '../../volume/mysql/performance_schema/setup_actors_102.sdi'
+'/da/mysql/performance_schema/setup_consumers_103.sdi' -> '../../volume/mysql/performance_schema/setup_consumers_103.sdi'
+'/da/mysql/performance_schema/setup_instrument_104.sdi' -> '../../volume/mysql/performance_schema/setup_instrument_104.sdi'
+'/da/mysql/performance_schema/setup_objects_105.sdi' -> '../../volume/mysql/performance_schema/setup_objects_105.sdi'
+'/da/mysql/performance_schema/setup_threads_106.sdi' -> '../../volume/mysql/performance_schema/setup_threads_106.sdi'
+'/da/mysql/performance_schema/table_io_waits_s_107.sdi' -> '../../volume/mysql/performance_schema/table_io_waits_s_107.sdi'
+'/da/mysql/performance_schema/table_io_waits_s_108.sdi' -> '../../volume/mysql/performance_schema/table_io_waits_s_108.sdi'
+'/da/mysql/performance_schema/table_lock_waits_109.sdi' -> '../../volume/mysql/performance_schema/table_lock_waits_109.sdi'
+'/da/mysql/performance_schema/threads_110.sdi' -> '../../volume/mysql/performance_schema/threads_110.sdi'
+'/da/mysql/performance_schema/events_stages_cu_111.sdi' -> '../../volume/mysql/performance_schema/events_stages_cu_111.sdi'
+'/da/mysql/performance_schema/events_stages_hi_112.sdi' -> '../../volume/mysql/performance_schema/events_stages_hi_112.sdi'
+'/da/mysql/performance_schema/events_stages_hi_113.sdi' -> '../../volume/mysql/performance_schema/events_stages_hi_113.sdi'
+'/da/mysql/performance_schema/events_stages_su_114.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_114.sdi'
+'/da/mysql/performance_schema/events_stages_su_115.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_115.sdi'
+'/da/mysql/performance_schema/events_stages_su_116.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_116.sdi'
+'/da/mysql/performance_schema/events_stages_su_117.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_117.sdi'
+'/da/mysql/performance_schema/events_stages_su_118.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_118.sdi'
+'/da/mysql/performance_schema/events_statement_119.sdi' -> '../../volume/mysql/performance_schema/events_statement_119.sdi'
+'/da/mysql/performance_schema/events_statement_120.sdi' -> '../../volume/mysql/performance_schema/events_statement_120.sdi'
+'/da/mysql/performance_schema/events_statement_121.sdi' -> '../../volume/mysql/performance_schema/events_statement_121.sdi'
+'/da/mysql/performance_schema/events_statement_125.sdi' -> '../../volume/mysql/performance_schema/events_statement_125.sdi'
+'/da/mysql/performance_schema/events_statement_126.sdi' -> '../../volume/mysql/performance_schema/events_statement_126.sdi'
+'/da/mysql/performance_schema/events_statement_122.sdi' -> '../../volume/mysql/performance_schema/events_statement_122.sdi'
+'/da/mysql/performance_schema/events_statement_123.sdi' -> '../../volume/mysql/performance_schema/events_statement_123.sdi'
+'/da/mysql/performance_schema/events_statement_124.sdi' -> '../../volume/mysql/performance_schema/events_statement_124.sdi'
+'/da/mysql/performance_schema/events_statement_127.sdi' -> '../../volume/mysql/performance_schema/events_statement_127.sdi'
+'/da/mysql/performance_schema/events_statement_128.sdi' -> '../../volume/mysql/performance_schema/events_statement_128.sdi'
+'/da/mysql/performance_schema/events_statement_129.sdi' -> '../../volume/mysql/performance_schema/events_statement_129.sdi'
+'/da/mysql/performance_schema/events_statement_130.sdi' -> '../../volume/mysql/performance_schema/events_statement_130.sdi'
+'/da/mysql/performance_schema/events_transacti_131.sdi' -> '../../volume/mysql/performance_schema/events_transacti_131.sdi'
+'/da/mysql/performance_schema/events_transacti_132.sdi' -> '../../volume/mysql/performance_schema/events_transacti_132.sdi'
+'/da/mysql/performance_schema/events_transacti_133.sdi' -> '../../volume/mysql/performance_schema/events_transacti_133.sdi'
+'/da/mysql/performance_schema/events_transacti_134.sdi' -> '../../volume/mysql/performance_schema/events_transacti_134.sdi'
+'/da/mysql/performance_schema/events_transacti_135.sdi' -> '../../volume/mysql/performance_schema/events_transacti_135.sdi'
+'/da/mysql/performance_schema/events_transacti_136.sdi' -> '../../volume/mysql/performance_schema/events_transacti_136.sdi'
+'/da/mysql/performance_schema/events_transacti_137.sdi' -> '../../volume/mysql/performance_schema/events_transacti_137.sdi'
+'/da/mysql/performance_schema/events_transacti_138.sdi' -> '../../volume/mysql/performance_schema/events_transacti_138.sdi'
+'/da/mysql/performance_schema/events_errors_su_139.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_139.sdi'
+'/da/mysql/performance_schema/events_errors_su_140.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_140.sdi'
+'/da/mysql/performance_schema/events_errors_su_141.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_141.sdi'
+'/da/mysql/performance_schema/events_errors_su_142.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_142.sdi'
+'/da/mysql/performance_schema/events_errors_su_143.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_143.sdi'
+'/da/mysql/performance_schema/users_144.sdi' -> '../../volume/mysql/performance_schema/users_144.sdi'
+'/da/mysql/performance_schema/accounts_145.sdi' -> '../../volume/mysql/performance_schema/accounts_145.sdi'
+'/da/mysql/performance_schema/hosts_146.sdi' -> '../../volume/mysql/performance_schema/hosts_146.sdi'
+'/da/mysql/performance_schema/socket_instances_147.sdi' -> '../../volume/mysql/performance_schema/socket_instances_147.sdi'
+'/da/mysql/performance_schema/socket_summary_b_148.sdi' -> '../../volume/mysql/performance_schema/socket_summary_b_148.sdi'
+'/da/mysql/performance_schema/socket_summary_b_149.sdi' -> '../../volume/mysql/performance_schema/socket_summary_b_149.sdi'
+'/da/mysql/performance_schema/session_connect__150.sdi' -> '../../volume/mysql/performance_schema/session_connect__150.sdi'
+'/da/mysql/performance_schema/session_account__151.sdi' -> '../../volume/mysql/performance_schema/session_account__151.sdi'
+'/da/mysql/performance_schema/keyring_keys_152.sdi' -> '../../volume/mysql/performance_schema/keyring_keys_152.sdi'
+'/da/mysql/performance_schema/memory_summary_g_153.sdi' -> '../../volume/mysql/performance_schema/memory_summary_g_153.sdi'
+'/da/mysql/performance_schema/memory_summary_b_154.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_154.sdi'
+'/da/mysql/performance_schema/memory_summary_b_155.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_155.sdi'
+'/da/mysql/performance_schema/memory_summary_b_156.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_156.sdi'
+'/da/mysql/performance_schema/memory_summary_b_157.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_157.sdi'
+'/da/mysql/performance_schema/table_handles_158.sdi' -> '../../volume/mysql/performance_schema/table_handles_158.sdi'
+'/da/mysql/performance_schema/metadata_locks_159.sdi' -> '../../volume/mysql/performance_schema/metadata_locks_159.sdi'
+'/da/mysql/performance_schema/data_locks_160.sdi' -> '../../volume/mysql/performance_schema/data_locks_160.sdi'
+'/da/mysql/performance_schema/data_lock_waits_161.sdi' -> '../../volume/mysql/performance_schema/data_lock_waits_161.sdi'
+'/da/mysql/performance_schema/replication_conn_162.sdi' -> '../../volume/mysql/performance_schema/replication_conn_162.sdi'
+'/da/mysql/performance_schema/replication_grou_163.sdi' -> '../../volume/mysql/performance_schema/replication_grou_163.sdi'
+'/da/mysql/performance_schema/replication_conn_164.sdi' -> '../../volume/mysql/performance_schema/replication_conn_164.sdi'
+'/da/mysql/performance_schema/replication_appl_165.sdi' -> '../../volume/mysql/performance_schema/replication_appl_165.sdi'
+'/da/mysql/performance_schema/replication_appl_166.sdi' -> '../../volume/mysql/performance_schema/replication_appl_166.sdi'
+'/da/mysql/performance_schema/replication_appl_167.sdi' -> '../../volume/mysql/performance_schema/replication_appl_167.sdi'
+'/da/mysql/performance_schema/replication_appl_168.sdi' -> '../../volume/mysql/performance_schema/replication_appl_168.sdi'
+'/da/mysql/performance_schema/replication_grou_169.sdi' -> '../../volume/mysql/performance_schema/replication_grou_169.sdi'
+'/da/mysql/performance_schema/replication_appl_170.sdi' -> '../../volume/mysql/performance_schema/replication_appl_170.sdi'
+'/da/mysql/performance_schema/replication_appl_171.sdi' -> '../../volume/mysql/performance_schema/replication_appl_171.sdi'
+'/da/mysql/performance_schema/replication_asyn_172.sdi' -> '../../volume/mysql/performance_schema/replication_asyn_172.sdi'
+'/da/mysql/performance_schema/replication_asyn_173.sdi' -> '../../volume/mysql/performance_schema/replication_asyn_173.sdi'
+'/da/mysql/performance_schema/log_status_174.sdi' -> '../../volume/mysql/performance_schema/log_status_174.sdi'
+'/da/mysql/performance_schema/prepared_stateme_175.sdi' -> '../../volume/mysql/performance_schema/prepared_stateme_175.sdi'
+'/da/mysql/performance_schema/user_variables_b_176.sdi' -> '../../volume/mysql/performance_schema/user_variables_b_176.sdi'
+'/da/mysql/performance_schema/status_by_accoun_177.sdi' -> '../../volume/mysql/performance_schema/status_by_accoun_177.sdi'
+'/da/mysql/performance_schema/status_by_host_178.sdi' -> '../../volume/mysql/performance_schema/status_by_host_178.sdi'
+'/da/mysql/performance_schema/status_by_thread_179.sdi' -> '../../volume/mysql/performance_schema/status_by_thread_179.sdi'
+'/da/mysql/performance_schema/status_by_user_180.sdi' -> '../../volume/mysql/performance_schema/status_by_user_180.sdi'
+'/da/mysql/performance_schema/global_status_181.sdi' -> '../../volume/mysql/performance_schema/global_status_181.sdi'
+'/da/mysql/performance_schema/session_status_182.sdi' -> '../../volume/mysql/performance_schema/session_status_182.sdi'
+'/da/mysql/performance_schema/variables_by_thr_183.sdi' -> '../../volume/mysql/performance_schema/variables_by_thr_183.sdi'
+'/da/mysql/performance_schema/global_variables_184.sdi' -> '../../volume/mysql/performance_schema/global_variables_184.sdi'
+'/da/mysql/performance_schema/session_variable_185.sdi' -> '../../volume/mysql/performance_schema/session_variable_185.sdi'
+'/da/mysql/performance_schema/variables_info_186.sdi' -> '../../volume/mysql/performance_schema/variables_info_186.sdi'
+'/da/mysql/performance_schema/persisted_variab_187.sdi' -> '../../volume/mysql/performance_schema/persisted_variab_187.sdi'
+'/da/mysql/performance_schema/user_defined_fun_188.sdi' -> '../../volume/mysql/performance_schema/user_defined_fun_188.sdi'
+'/da/mysql/performance_schema/binary_log_trans_189.sdi' -> '../../volume/mysql/performance_schema/binary_log_trans_189.sdi'
+'/da/mysql/performance_schema/tls_channel_stat_190.sdi' -> '../../volume/mysql/performance_schema/tls_channel_stat_190.sdi'
+'/da/mysql/performance_schema/keyring_componen_191.sdi' -> '../../volume/mysql/performance_schema/keyring_componen_191.sdi'
+'/da/mysql/ca-key.pem' -> '../../volume/mysql/ca-key.pem'
+'/da/mysql/client-cert.pem' -> '../../volume/mysql/client-cert.pem'
+'/da/mysql/private_key.pem' -> '../../volume/mysql/private_key.pem'
+'/da/mysql/ca.pem' -> '../../volume/mysql/ca.pem'
+'/da/mysql/server-key.pem' -> '../../volume/mysql/server-key.pem'
+'/da/mysql/server-cert.pem' -> '../../volume/mysql/server-cert.pem'
+'/da/mysql/client-key.pem' -> '../../volume/mysql/client-key.pem'
+'/da/mysql/public_key.pem' -> '../../volume/mysql/public_key.pem'
+'/da/mysql/sys' -> '../../volume/mysql/sys'
+'/da/mysql/sys/sys_config.ibd' -> '../../volume/mysql/sys/sys_config.ibd'
+'/da/mysql/binlog.000002' -> '../../volume/mysql/binlog.000002'
+'/da/mysql/binlog.000001' -> '../../volume/mysql/binlog.000001'
+'/da/mysql/app' -> '../../volume/mysql/app'
+'/da/mysql/app/user.ibd' -> '../../volume/mysql/app/user.ibd'
+'/da/mysql/app/group_info.ibd' -> '../../volume/mysql/app/group_info.ibd'
+'/da/mysql/app/group_member.ibd' -> '../../volume/mysql/app/group_member.ibd'
+'/da/mysql/app/record.ibd' -> '../../volume/mysql/app/record.ibd'
+'/da/mysql/app/record_item_file.ibd' -> '../../volume/mysql/app/record_item_file.ibd'
+'/da/mysql/app/record_last_access.ibd' -> '../../volume/mysql/app/record_last_access.ibd'
+'/da/mysql/app/record_comment.ibd' -> '../../volume/mysql/app/record_comment.ibd'
+'/da/mysql/app/category.ibd' -> '../../volume/mysql/app/category.ibd'
+'/da/mysql/app/category_group.ibd' -> '../../volume/mysql/app/category_group.ibd'
+'/da/mysql/app/session.ibd' -> '../../volume/mysql/app/session.ibd'
+'/da/mysql/app/file.ibd' -> '../../volume/mysql/app/file.ibd'
+'/da/mysql/next.dbm' -> '../../volume/mysql/next.dbm'
+'/da/mysql/binlog.000003' -> '../../volume/mysql/binlog.000003'
+'/da/mysql/binlog.index' -> '../../volume/mysql/binlog.index'
+ファイルをリストアします...
+Creating network "development_default" with the default driver
+Creating development_nginx_1 ... 
+Creating development_backend_1 ... 
+Creating development_mysql_1   ... 
+Creating development_frontend_1 ... 
+Creating development_mysql_1    ... done
+Creating development_backend_1  ... done
+Creating development_frontend_1 ... done
+Creating development_nginx_1    ... done
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+V1.sqlを適用します...
+V2.sqlはありません。
+
+
+== APIテスト開始。 == 
+
+
+
+1.カテゴリーの取得(申請時のカテゴリー一覧が正しく取得できること): START
+
+・カテゴリー一覧を取得します。
+
+=> OK
+
+2.文書の申請と閲覧(申請内容が正しく閲覧できること): START
+
+・添付ファイルをアップロードします。
+・文書を登録します。
+・文書を閲覧します。
+・添付ファイルを確認します。
+
+=> OK
+
+3.コメントの投稿と取得(文書へのコメント投稿およびその内容が正しく取得できること): START
+
+・コメントします。
+・コメントを確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+
+=> OK
+
+4.文書一覧(タブごとに正しく文書のフィルター&並び替え&情報の表示ができること): START
+
+・一覧表示のための初期化をします。
+・文書をクローズします。
+・全件を確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・自分が申請を確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・クローズ済みを確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・自分宛を確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・事前データを検証をします。
+
+=> OK
+
+5.細部の確認: START
+
+細部をチェックします。
+
+=> OK
+
+
+== APIテスト完了。 結果: OK ==
+
+
+[2022-04-17 03:43:03,605] env15-olive/WARNING/locust.main: System open file limit '1024' is below minimum setting '10000'.
+It's not high enough for load testing, and the OS didn't allow locust to increase it by itself.
+See https://github.com/locustio/locust/wiki/Installation#increasing-maximum-number-of-open-files-limit for more info.
+[2022-04-17 03:43:03,606] env15-olive/INFO/locust.main: Run time limit set to 120 seconds
+[2022-04-17 03:43:03,606] env15-olive/INFO/locust.main: Starting Locust 2.8.5
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                             0     0(0.00%)  |       0       0       0       0  |    0.00    0.00
+
+[2022-04-17 03:43:03,607] env15-olive/INFO/locust.runners: Ramping to 390 users at a rate of 20.00 per second
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                        2     0(0.00%)  |     758     173    1343     173  |    0.00    0.00
+ POST /records                                                                          1     0(0.00%)  |     181     181     181     181  |    0.00    0.00
+ PUT /records/[recordId]                                                                2     0(0.00%)  |     562     159     965     160  |    0.00    0.00
+ POST /records/[recordId]/comments                                                      2     0(0.00%)  |    1363     963    1763     963  |    0.00    0.00
+ GET /records/[recordId]/files/[itemId]                                                 1     0(0.00%)  |    1720    1720    1720    1720  |    0.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                       1     0(0.00%)  |    1361    1361    1361    1361  |    0.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                             9     0(0.00%)  |     959     159    1763     970  |    0.00    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                        7     0(0.00%)  |    1399     173    1900    1500  |    1.00    0.00
+ POST /files                                                                            2     0(0.00%)  |    2459    2413    2505    2413  |    0.00    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.00    0.00
+ POST /records                                                                          2     0(0.00%)  |    1347     181    2512     181  |    0.50    0.00
+ PUT /records/[recordId]                                                                7     0(0.00%)  |    1388     159    2021    1400  |    1.00    0.00
+ POST /records/[recordId]/comments                                                      3     0(0.00%)  |    1856     963    2842    1800  |    0.50    0.00
+ GET /records/[recordId]/files/[itemId]                                                 4     0(0.00%)  |    1647    1468    1914    1500  |    0.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                       5     0(0.00%)  |    1557    1361    1902    1400  |    0.50    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                            31     0(0.00%)  |    1642     159    3843    1700  |    3.50    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       10     0(0.00%)  |    1790     173    2938    1700  |    1.00    0.00
+ POST /files                                                                            3     0(0.00%)  |    2928    2413    3866    2500  |    0.50    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.00    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.00    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.00    0.00
+ POST /records                                                                          4     0(0.00%)  |    3106     181    4921    2500  |    0.50    0.00
+ PUT /records/[recordId]                                                               10     0(0.00%)  |    1782     159    2899    1900  |    1.00    0.00
+ POST /records/[recordId]/comments                                                      4     0(0.00%)  |    2414     963    4088    1800  |    0.50    0.00
+ GET /records/[recordId]/files/[itemId]                                                 7     0(0.00%)  |    2252    1468    3279    1900  |    0.75    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                       9     0(0.00%)  |    2089    1361    2908    1900  |    0.75    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                            50     0(0.00%)  |    2335     159    5891    1900  |    5.00    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       10     0(0.00%)  |    1790     173    2938    1700  |    1.17    0.00
+ POST /files                                                                            5     0(0.00%)  |    3905    2413    5375    3900  |    0.50    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.00    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.17    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.00    0.00
+ POST /records                                                                          4     0(0.00%)  |    3106     181    4921    2500  |    0.33    0.00
+ PUT /records/[recordId]                                                               10     0(0.00%)  |    1782     159    2899    1900  |    1.17    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                      6     0(0.00%)  |    3399     963    5376    2800  |    0.50    0.00
+ GET /records/[recordId]/files/[itemId]                                                 9     0(0.00%)  |    2650    1468    4064    2900  |    0.67    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                       9     0(0.00%)  |    2089    1361    2908    1900  |    0.83    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                            57     0(0.00%)  |    2698     159    7457    2500  |    5.33    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       15     0(0.00%)  |    2664     173    4863    2600  |    1.43    0.00
+ POST /files                                                                            5     0(0.00%)  |    3905    2413    5375    3900  |    0.43    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.14    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.14    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.14    0.00
+ POST /records                                                                          6     0(0.00%)  |    4379     181    6930    4800  |    0.57    0.00
+ PUT /records/[recordId]                                                               15     0(0.00%)  |    2665     159    4897    2600  |    1.43    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                      8     0(0.00%)  |    4074     963    6263    4100  |    0.57    0.00
+ GET /records/[recordId]/files/[itemId]                                                10     0(0.00%)  |    2871    1468    4861    2900  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      12     0(0.00%)  |    2657    1361    4832    2600  |    1.29    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                            75     0(0.00%)  |    3226     159    7457    2900  |    7.14    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       16     0(0.00%)  |    2862     173    5826    2600  |    1.11    0.00
+ POST /files                                                                            7     0(0.00%)  |    4903    2413    7555    5400  |    0.56    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.11    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.11    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.11    0.00
+ POST /records                                                                          6     0(0.00%)  |    4379     181    6930    4800  |    0.44    0.00
+ PUT /records/[recordId]                                                               16     0(0.00%)  |    2862     159    5816    2600  |    1.11    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.11    0.00
+ POST /records/[recordId]/comments                                                      8     0(0.00%)  |    4074     963    6263    4100  |    0.67    0.00
+ GET /records/[recordId]/files/[itemId]                                                13     0(0.00%)  |    3530    1468    5871    3300  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      14     0(0.00%)  |    3110    1361    5835    2600  |    1.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                            84     0(0.00%)  |    3539     159    7555    3000  |    6.33    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       18     0(0.00%)  |    3394     173    7687    2600  |    1.40    0.00
+ POST /files                                                                            8     0(0.00%)  |    5433    2413    9138    5400  |    0.70    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.10    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.10    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.10    0.00
+ POST /records                                                                          6     0(0.00%)  |    4379     181    6930    4800  |    0.50    0.00
+ PUT /records/[recordId]                                                               19     0(0.00%)  |    3580     159    7640    2900  |    1.40    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.10    0.00
+ POST /records/[recordId]/comments                                                      8     0(0.00%)  |    4074     963    6263    4100  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                                14     0(0.00%)  |    3832    1468    7750    3300  |    1.30    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      15     0(0.00%)  |    3419    1361    7740    2900  |    1.30    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                            92     0(0.00%)  |    3907     159    9138    4000  |    7.70    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       22     0(0.00%)  |    4146     173    7913    4100  |    1.20    0.00
+ POST /files                                                                           10     0(0.00%)  |    6525    2413   10899    5400  |    0.60    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.10    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.10    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.10    0.00
+ POST /records                                                                          8     0(0.00%)  |    6055     181   11289    4900  |    0.40    0.00
+ PUT /records/[recordId]                                                               21     0(0.00%)  |    3942     159    7640    4100  |    1.20    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.10    0.00
+ POST /records/[recordId]/comments                                                     11     0(0.00%)  |    5690     963   10292    5400  |    0.60    0.00
+ GET /records/[recordId]/files/[itemId]                                                17     0(0.00%)  |    4501    1468    8055    4100  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      20     0(0.00%)  |    4498    1361    8594    4100  |    1.10    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           113     0(0.00%)  |    4777     159   11289    4800  |    6.50    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       24     0(0.00%)  |    4492     173    8301    4100  |    1.40    0.00
+ POST /files                                                                           11     0(0.00%)  |    6900    2413   10899    7200  |    0.60    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.10    0.00
+ GET /record-views/allClosed                                                            1     0(0.00%)  |    3843    3843    3843    3843  |    0.00    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.10    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.00    0.00
+ POST /records                                                                          8     0(0.00%)  |    6055     181   11289    4900  |    0.60    0.00
+ GET /records/[recordId]                                                                2     0(0.00%)  |   16420   16415   16424   16415  |    0.00    0.00
+ PUT /records/[recordId]                                                               24     0(0.00%)  |    4560     159    9127    4100  |    1.40    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.10    0.00
+ POST /records/[recordId]/comments                                                     13     0(0.00%)  |    6562     963   11401    5900  |    0.80    0.00
+ GET /records/[recordId]/files/[itemId]                                                22     0(0.00%)  |    5427    1468    9220    5400  |    1.20    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      22     0(0.00%)  |    4880    1361    9107    4100  |    1.30    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           131     0(0.00%)  |    5541     159   16424    5400  |    7.60    0.00
+
+[2022-04-17 03:43:22,767] env15-olive/INFO/locust.runners: All users spawned: {"WebAppTestTasks": 390} (390 total users)
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       24     0(0.00%)  |    4492     173    8301    4100  |    1.40    0.00
+ POST /files                                                                           12     0(0.00%)  |    7473    2413   13783    7200  |    0.60    0.00
+ GET /record-views/allActive                                                            1     0(0.00%)  |    5891    5891    5891    5891  |    0.00    0.00
+ GET /record-views/allClosed                                                            2     0(0.00%)  |   11242    3843   18642    3843  |    0.00    0.00
+ GET /record-views/mineActive                                                           1     0(0.00%)  |    5862    5862    5862    5862  |    0.00    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.10    0.00
+ POST /records                                                                          8     0(0.00%)  |    6055     181   11289    4900  |    0.40    0.00
+ GET /records/[recordId]                                                                2     0(0.00%)  |   16420   16415   16424   16415  |    0.20    0.00
+ PUT /records/[recordId]                                                               24     0(0.00%)  |    4560     159    9127    4100  |    1.40    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.10    0.00
+ POST /records/[recordId]/comments                                                     13     0(0.00%)  |    6562     963   11401    5900  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                                22     0(0.00%)  |    5427    1468    9220    5400  |    1.50    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      22     0(0.00%)  |    4880    1361    9107    4100  |    1.30    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           133     0(0.00%)  |    5701     159   18642    5400  |    7.70    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       28     0(0.00%)  |    5548     173   12421    4800  |    0.90    0.00
+ POST /files                                                                           14     0(0.00%)  |    8622    2413   15522    7600  |    0.70    0.00
+ GET /record-views/allActive                                                            2     0(0.00%)  |   13008    5891   20125    5900  |    0.00    0.00
+ GET /record-views/allClosed                                                            2     0(0.00%)  |   11242    3843   18642    3843  |    0.00    0.00
+ GET /record-views/mineActive                                                           3     0(0.00%)  |   15148    5862   19807   19807  |    0.00    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.10    0.00
+ POST /records                                                                         10     0(0.00%)  |    8332     181   17462    6900  |    0.20    0.00
+ GET /records/[recordId]                                                                2     0(0.00%)  |   16420   16415   16424   16415  |    0.20    0.00
+ PUT /records/[recordId]                                                               30     0(0.00%)  |    6036     159   12465    4900  |    0.90    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     15     0(0.00%)  |    7695     963   15450    6300  |    0.50    0.00
+ GET /records/[recordId]/files/[itemId]                                                25     0(0.00%)  |    6240    1468   12458    5900  |    1.20    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      25     0(0.00%)  |    5759    1361   12446    5800  |    1.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           158     0(0.00%)  |    7003     159   20125    6300  |    5.70    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       32     0(0.00%)  |    6383     173   12421    5800  |    0.80    0.00
+ POST /files                                                                           14     0(0.00%)  |    8622    2413   15522    7600  |    0.50    0.00
+ GET /record-views/allActive                                                            2     0(0.00%)  |   13008    5891   20125    5900  |    0.10    0.00
+ GET /record-views/allClosed                                                            3     0(0.00%)  |   14541    3843   21139   19000  |    0.10    0.00
+ GET /record-views/mineActive                                                           3     0(0.00%)  |   15148    5862   19807   19807  |    0.20    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.10    0.00
+ POST /records                                                                         10     0(0.00%)  |    8332     181   17462    6900  |    0.20    0.00
+ GET /records/[recordId]                                                                2     0(0.00%)  |   16420   16415   16424   16415  |    0.20    0.00
+ PUT /records/[recordId]                                                               32     0(0.00%)  |    6424     159   12465    5800  |    0.80    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     17     0(0.00%)  |    8757     963   16723    9500  |    0.50    0.00
+ GET /records/[recordId]/files/[itemId]                                                27     0(0.00%)  |    6681    1468   12458    7400  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      28     0(0.00%)  |    6455    1361   12446    5800  |    0.80    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           172     0(0.00%)  |    7532     159   21139    7300  |    5.20    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       36     0(0.00%)  |    7109     173   13537    7400  |    1.60    0.00
+ POST /files                                                                           17     0(0.00%)  |   10063    2413   17582   11000  |    0.70    0.00
+ GET /record-views/allActive                                                            3     0(0.00%)  |   16416    5891   23231   20000  |    0.10    0.00
+ GET /record-views/allClosed                                                            3     0(0.00%)  |   14541    3843   21139   19000  |    0.20    0.00
+ GET /record-views/mineActive                                                           3     0(0.00%)  |   15148    5862   19807   19807  |    0.20    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.10    0.00
+ POST /records                                                                         11     0(0.00%)  |    9361     181   19642    6900  |    0.40    0.00
+ GET /records/[recordId]                                                                2     0(0.00%)  |   16420   16415   16424   16415  |    0.20    0.00
+ PUT /records/[recordId]                                                               36     0(0.00%)  |    7171     159   13542    7300  |    1.60    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     20     0(0.00%)  |    9906     963   16723   10000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                                32     0(0.00%)  |    7683    1468   13611    7800  |    1.40    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      32     0(0.00%)  |    7298    1361   13544    7400  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           197     0(0.00%)  |    8429     159   23231    7700  |    8.60    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       37     0(0.00%)  |    7308     173   14451    7400  |    1.40    0.00
+ POST /files                                                                           17     0(0.00%)  |   10063    2413   17582   11000  |    0.70    0.00
+ GET /record-views/allActive                                                            3     0(0.00%)  |   16416    5891   23231   20000  |    0.20    0.00
+ GET /record-views/allClosed                                                            3     0(0.00%)  |   14541    3843   21139   19000  |    0.20    0.00
+ GET /record-views/mineActive                                                           3     0(0.00%)  |   15148    5862   19807   19807  |    0.20    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.10    0.00
+ POST /records                                                                         11     0(0.00%)  |    9361     181   19642    6900  |    0.30    0.00
+ GET /records/[recordId]                                                                2     0(0.00%)  |   16420   16415   16424   16415  |    0.20    0.00
+ PUT /records/[recordId]                                                               38     0(0.00%)  |    7562     159   14733    7400  |    1.50    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     20     0(0.00%)  |    9906     963   16723   10000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]                                                33     0(0.00%)  |    7918    1468   15441    8000  |    1.50    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      34     0(0.00%)  |    7768    1361   15418    7400  |    1.30    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           203     0(0.00%)  |    8622     159   23231    7900  |    8.50    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       47     0(0.00%)  |    8726     173   15051    8300  |    1.20    0.00
+ POST /files                                                                           22     0(0.00%)  |   12327    2413   20652   11000  |    0.60    0.00
+ GET /record-views/allActive                                                            3     0(0.00%)  |   16416    5891   23231   20000  |    0.20    0.00
+ GET /record-views/allClosed                                                            3     0(0.00%)  |   14541    3843   21139   19000  |    0.20    0.00
+ GET /record-views/mineActive                                                           3     0(0.00%)  |   15148    5862   19807   19807  |    0.20    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.00    0.00
+ POST /records                                                                         16     0(0.00%)  |   13425     181   22750   11000  |    0.30    0.00
+ GET /records/[recordId]                                                                3     0(0.00%)  |   20443   16415   28489   16415  |    0.00    0.00
+ PUT /records/[recordId]                                                               46     0(0.00%)  |    8685     159   14733    9100  |    1.20    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     25     0(0.00%)  |   11806     963   19779   11000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                                41     0(0.00%)  |    9141    1468   15628    9200  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      43     0(0.00%)  |    9088    1361   15418    9100  |    1.10    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           254     0(0.00%)  |   10157     159   28489   11000  |    6.70    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       53     0(0.00%)  |    9215     173   15051   12000  |    2.30    0.00
+ POST /files                                                                           26     0(0.00%)  |   13552    2413   20949   16000  |    0.80    0.00
+ GET /record-views/allActive                                                            4     0(0.00%)  |   19800    5891   29954   20000  |    0.20    0.00
+ GET /record-views/allClosed                                                            4     0(0.00%)  |   18256    3843   29402   19000  |    0.20    0.00
+ GET /record-views/mineActive                                                           4     0(0.00%)  |   18375    5862   28058   20000  |    0.20    0.00
+ GET /record-views/tomeActive                                                           1     0(0.00%)  |   16300   16300   16300   16300  |    0.00    0.00
+ POST /records                                                                         18     0(0.00%)  |   14394     181   22750   17000  |    0.70    0.00
+ GET /records/[recordId]                                                                3     0(0.00%)  |   20443   16415   28489   16415  |    0.00    0.00
+ PUT /records/[recordId]                                                               53     0(0.00%)  |    9265     159   14733   12000  |    2.20    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     28     0(0.00%)  |   12621     963   19952   15000  |    1.10    0.00
+ GET /records/[recordId]/files/[itemId]                                                51     0(0.00%)  |    9913    1468   15628   12000  |    1.90    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      51     0(0.00%)  |    9726    1361   15418   12000  |    2.10    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           297     0(0.00%)  |   10965     159   29954   12000  |   11.70    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       62     0(0.00%)  |    9352     173   15051   10000  |    2.90    0.00
+ POST /files                                                                           33     0(0.00%)  |   14682    2413   20949   18000  |    1.10    0.00
+ GET /record-views/allActive                                                            4     0(0.00%)  |   19800    5891   29954   20000  |    0.20    0.00
+ GET /record-views/allClosed                                                            4     0(0.00%)  |   18256    3843   29402   19000  |    0.10    0.00
+ GET /record-views/mineActive                                                           4     0(0.00%)  |   18375    5862   28058   20000  |    0.30    0.00
+ GET /record-views/tomeActive                                                           2     0(0.00%)  |   23929   16300   31559   16300  |    0.00    0.00
+ POST /records                                                                         23     0(0.00%)  |   16238     181   23393   22000  |    1.00    0.00
+ GET /records/[recordId]                                                                3     0(0.00%)  |   20443   16415   28489   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               62     0(0.00%)  |    9415     159   14733   10000  |    2.90    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     36     0(0.00%)  |   13820     963   19952   17000  |    1.40    0.00
+ GET /records/[recordId]/files/[itemId]                                                57     0(0.00%)  |    9965    1468   15628   12000  |    2.90    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      58     0(0.00%)  |    9792    1361   15418   12000  |    2.90    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           349     0(0.00%)  |   11454     159   31559   12000  |   15.80    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       64     0(0.00%)  |    9383     173   15051   10000  |    3.00    0.00
+ POST /files                                                                           36     0(0.00%)  |   15086    2413   20949   18000  |    1.90    0.00
+ GET /record-views/allActive                                                            4     0(0.00%)  |   19800    5891   29954   20000  |    0.20    0.00
+ GET /record-views/allClosed                                                            4     0(0.00%)  |   18256    3843   29402   19000  |    0.10    0.00
+ GET /record-views/mineActive                                                           4     0(0.00%)  |   18375    5862   28058   20000  |    0.10    0.00
+ GET /record-views/tomeActive                                                           2     0(0.00%)  |   23929   16300   31559   16300  |    0.10    0.00
+ POST /records                                                                         26     0(0.00%)  |   17128     181   24290   22000  |    1.30    0.00
+ GET /records/[recordId]                                                                3     0(0.00%)  |   20443   16415   28489   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               65     0(0.00%)  |    9460     159   14733   10000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     43     0(0.00%)  |   14589     963   19952   17000  |    2.10    0.00
+ GET /records/[recordId]/files/[itemId]                                                57     0(0.00%)  |    9965    1468   15628   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      62     0(0.00%)  |    9826    1361   15418   10000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           371     0(0.00%)  |   11727     159   31559   12000  |   17.90    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       71     0(0.00%)  |    9391     173   15051   10000  |    2.60    0.00
+ POST /files                                                                           44     0(0.00%)  |   15693    2413   20949   18000  |    1.80    0.00
+ GET /record-views/allActive                                                            6     0(0.00%)  |   24871    5891   35044   23000  |    0.10    0.00
+ GET /record-views/allClosed                                                            4     0(0.00%)  |   18256    3843   29402   19000  |    0.10    0.00
+ GET /record-views/mineActive                                                           6     0(0.00%)  |   23850    5862   34799   20000  |    0.10    0.00
+ GET /record-views/tomeActive                                                           3     0(0.00%)  |   28206   16300   36760   32000  |    0.10    0.00
+ POST /records                                                                         33     0(0.00%)  |   18491     181   24851   22000  |    1.50    0.00
+ GET /records/[recordId]                                                                4     0(0.00%)  |   24586   16415   37017   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               72     0(0.00%)  |    9426     159   14733   10000  |    2.60    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     45     0(0.00%)  |   14638     963   19952   17000  |    1.70    0.00
+ GET /records/[recordId]/files/[itemId]                                                66     0(0.00%)  |   10016    1468   15628   12000  |    2.50    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      68     0(0.00%)  |    9743    1361   15418   10000  |    2.60    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           423     0(0.00%)  |   12256     159   37017   12000  |   15.80    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       71     0(0.00%)  |    9391     173   15051   10000  |    3.00    0.00
+ POST /files                                                                           44     0(0.00%)  |   15693    2413   20949   18000  |    2.20    0.00
+ GET /record-views/allActive                                                            6     0(0.00%)  |   24871    5891   35044   23000  |    0.10    0.00
+ GET /record-views/allClosed                                                            4     0(0.00%)  |   18256    3843   29402   19000  |    0.10    0.00
+ GET /record-views/mineActive                                                           6     0(0.00%)  |   23850    5862   34799   20000  |    0.10    0.00
+ GET /record-views/tomeActive                                                           3     0(0.00%)  |   28206   16300   36760   32000  |    0.10    0.00
+ POST /records                                                                         33     0(0.00%)  |   18491     181   24851   22000  |    1.50    0.00
+ GET /records/[recordId]                                                                4     0(0.00%)  |   24586   16415   37017   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               72     0(0.00%)  |    9426     159   14733   10000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     45     0(0.00%)  |   14638     963   19952   17000  |    2.30    0.00
+ GET /records/[recordId]/files/[itemId]                                                67     0(0.00%)  |   10021    1468   15628   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      68     0(0.00%)  |    9743    1361   15418   10000  |    2.90    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           424     0(0.00%)  |   12251     159   37017   12000  |   18.40    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       71     0(0.00%)  |    9391     173   15051   10000  |    3.00    0.00
+ POST /files                                                                           44     0(0.00%)  |   15693    2413   20949   18000  |    2.20    0.00
+ GET /record-views/allActive                                                            6     0(0.00%)  |   24871    5891   35044   23000  |    0.10    0.00
+ GET /record-views/allClosed                                                            6     0(0.00%)  |   24625    3843   37368   21000  |    0.10    0.00
+ GET /record-views/mineActive                                                           6     0(0.00%)  |   23850    5862   34799   20000  |    0.10    0.00
+ GET /record-views/tomeActive                                                           3     0(0.00%)  |   28206   16300   36760   32000  |    0.10    0.00
+ POST /records                                                                         33     0(0.00%)  |   18491     181   24851   22000  |    1.50    0.00
+ GET /records/[recordId]                                                                4     0(0.00%)  |   24586   16415   37017   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               72     0(0.00%)  |    9426     159   14733   10000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                       1     0(0.00%)  |    7457    7457    7457    7457  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     45     0(0.00%)  |   14638     963   19952   17000  |    2.30    0.00
+ GET /records/[recordId]/files/[itemId]                                                67     0(0.00%)  |   10021    1468   15628   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      68     0(0.00%)  |    9743    1361   15418   10000  |    2.90    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           426     0(0.00%)  |   12369     159   37368   12000  |   18.40    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       77     0(0.00%)  |    9667     173   15051   11000  |    1.80    0.00
+ POST /files                                                                           44     0(0.00%)  |   15693    2413   20949   18000  |    2.10    0.00
+ GET /record-views/allActive                                                            6     0(0.00%)  |   24871    5891   35044   23000  |    0.30    0.00
+ GET /record-views/allClosed                                                            6     0(0.00%)  |   24625    3843   37368   21000  |    0.30    0.00
+ GET /record-views/mineActive                                                           6     0(0.00%)  |   23850    5862   34799   20000  |    0.20    0.00
+ GET /record-views/tomeActive                                                           3     0(0.00%)  |   28206   16300   36760   32000  |    0.20    0.00
+ POST /records                                                                         33     0(0.00%)  |   18491     181   24851   22000  |    1.50    0.00
+ GET /records/[recordId]                                                                4     0(0.00%)  |   24586   16415   37017   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               76     0(0.00%)  |    9611     159   14733   10000  |    1.90    0.00
+ GET /records/[recordId]/comments                                                       2     0(0.00%)  |   25732    7457   44007    7500  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     45     0(0.00%)  |   14638     963   19952   17000  |    1.80    0.00
+ GET /records/[recordId]/files/[itemId]                                                71     0(0.00%)  |   10217    1468   15628   12000  |    1.60    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      73     0(0.00%)  |    9962    1361   15418   10000  |    1.70    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           446     0(0.00%)  |   12469     159   44007   12000  |   13.50    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       83     0(0.00%)  |    9947     173   15051   12000  |    1.70    0.00
+ POST /files                                                                           45     0(0.00%)  |   15771    2413   20949   18000  |    1.60    0.00
+ GET /record-views/allActive                                                            6     0(0.00%)  |   24871    5891   35044   23000  |    0.20    0.00
+ GET /record-views/allClosed                                                            6     0(0.00%)  |   24625    3843   37368   21000  |    0.20    0.00
+ GET /record-views/mineActive                                                           6     0(0.00%)  |   23850    5862   34799   20000  |    0.20    0.00
+ GET /record-views/tomeActive                                                           3     0(0.00%)  |   28206   16300   36760   32000  |    0.20    0.00
+ POST /records                                                                         37     0(0.00%)  |   19460     181   28454   23000  |    1.50    0.00
+ GET /records/[recordId]                                                                4     0(0.00%)  |   24586   16415   37017   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               83     0(0.00%)  |    9953     159   14733   12000  |    1.80    0.00
+ GET /records/[recordId]/comments                                                       2     0(0.00%)  |   25732    7457   44007    7500  |    0.00    0.00
+ POST /records/[recordId]/comments                                                     50     0(0.00%)  |   15122     963   19984   17000  |    1.50    0.00
+ GET /records/[recordId]/files/[itemId]                                                79     0(0.00%)  |   10593    1468   15628   12000  |    1.50    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      81     0(0.00%)  |   10316    1361   15418   12000  |    1.60    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           485     0(0.00%)  |   12751     159   44007   13000  |   12.10    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       85     0(0.00%)  |   10057     173   15051   12000  |    2.10    0.00
+ POST /files                                                                           49     0(0.00%)  |   16070    2413   20997   18000  |    1.00    0.00
+ GET /record-views/allActive                                                            8     0(0.00%)  |   29467    5891   43262   30000  |    0.20    0.00
+ GET /record-views/allClosed                                                            8     0(0.00%)  |   29279    3843   43608   29000  |    0.20    0.00
+ GET /record-views/mineActive                                                           8     0(0.00%)  |   28420    5862   42514   28000  |    0.20    0.00
+ GET /record-views/tomeActive                                                           3     0(0.00%)  |   28206   16300   36760   32000  |    0.10    0.00
+ POST /records                                                                         40     0(0.00%)  |   19908     181   28454   23000  |    1.10    0.00
+ GET /records/[recordId]                                                                4     0(0.00%)  |   24586   16415   37017   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               84     0(0.00%)  |   10006     159   14733   12000  |    2.10    0.00
+ GET /records/[recordId]/comments                                                       2     0(0.00%)  |   25732    7457   44007    7500  |    0.10    0.00
+ POST /records/[recordId]/comments                                                     54     0(0.00%)  |   15285     963   19984   17000  |    1.30    0.00
+ GET /records/[recordId]/files/[itemId]                                                82     0(0.00%)  |   10755    1468   15628   12000  |    2.20    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      82     0(0.00%)  |   10367    1361   15418   12000  |    2.30    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           509     0(0.00%)  |   13297     159   44007   13000  |   13.00    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       85     0(0.00%)  |   10057     173   15051   12000  |    1.70    0.00
+ POST /files                                                                           49     0(0.00%)  |   16070    2413   20997   18000  |    0.90    0.00
+ GET /record-views/allActive                                                            8     0(0.00%)  |   29467    5891   43262   30000  |    0.40    0.00
+ GET /record-views/allClosed                                                            8     0(0.00%)  |   29279    3843   43608   29000  |    0.20    0.00
+ GET /record-views/mineActive                                                           8     0(0.00%)  |   28420    5862   42514   28000  |    0.40    0.00
+ GET /record-views/tomeActive                                                           3     0(0.00%)  |   28206   16300   36760   32000  |    0.10    0.00
+ POST /records                                                                         40     0(0.00%)  |   19908     181   28454   23000  |    1.40    0.00
+ GET /records/[recordId]                                                                4     0(0.00%)  |   24586   16415   37017   16415  |    0.10    0.00
+ PUT /records/[recordId]                                                               84     0(0.00%)  |   10006     159   14733   12000  |    1.70    0.00
+ GET /records/[recordId]/comments                                                       2     0(0.00%)  |   25732    7457   44007    7500  |    0.10    0.00
+ POST /records/[recordId]/comments                                                     54     0(0.00%)  |   15285     963   19984   17000  |    1.10    0.00
+ GET /records/[recordId]/files/[itemId]                                                83     0(0.00%)  |   10824    1468   16496   12000  |    1.90    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      82     0(0.00%)  |   10367    1361   15418   12000  |    1.90    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           510     0(0.00%)  |   13303     159   44007   13000  |   11.90    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                       95     0(0.00%)  |   10740     173   17551   12000  |    1.40    0.00
+ POST /files                                                                           53     0(0.00%)  |   16452    2413   21333   19000  |    0.50    0.00
+ GET /record-views/allActive                                                            9     0(0.00%)  |   31330    5891   46229   35000  |    0.20    0.00
+ GET /record-views/allClosed                                                           10     0(0.00%)  |   32832    3843   47052   37000  |    0.40    0.00
+ GET /record-views/mineActive                                                           9     0(0.00%)  |   30368    5862   45958   35000  |    0.20    0.00
+ GET /record-views/tomeActive                                                           5     0(0.00%)  |   36944   16300   50058   37000  |    0.00    0.00
+ POST /records                                                                         41     0(0.00%)  |   20050     181   28454   23000  |    0.70    0.00
+ GET /records/[recordId]                                                                5     0(0.00%)  |   29501   16415   49157   28000  |    0.00    0.00
+ PUT /records/[recordId]                                                               95     0(0.00%)  |   10782     159   17558   12000  |    1.20    0.00
+ GET /records/[recordId]/comments                                                       3    1(33.33%)  |   33893    7457   50217   44000  |    0.10    0.00
+ POST /records/[recordId]/comments                                                     57     0(0.00%)  |   15571     963   20819   18000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]                                                87     0(0.00%)  |   11136    1468   17620   12000  |    1.60    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      92     0(0.00%)  |   11016    1361   17558   12000  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           561     1(0.18%)  |   14128     159   50217   13000  |    8.60    0.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      101     0(0.00%)  |   10992     173   17551   13000  |    2.40    0.00
+ POST /files                                                                           56     0(0.00%)  |   16689    2413   21333   19000  |    0.60    0.00
+ GET /record-views/allActive                                                           13     0(0.00%)  |   35942    5891   47083   43000  |    0.30    0.00
+ GET /record-views/allClosed                                                           13     0(0.00%)  |   36207    3843   47794   43000  |    0.20    0.00
+ GET /record-views/mineActive                                                          13     0(0.00%)  |   35040    5862   46204   42000  |    0.30    0.00
+ GET /record-views/tomeActive                                                           6    1(16.67%)  |   39154   16300   50204   37000  |    0.00    0.00
+ POST /records                                                                         45     0(0.00%)  |   20289     181   28454   23000  |    0.80    0.00
+ GET /records/[recordId]                                                                7    1(14.29%)  |   35268   16415   50198   37000  |    0.10    0.00
+ PUT /records/[recordId]                                                               99     0(0.00%)  |   10954     159   17558   12000  |    2.30    0.00
+ GET /records/[recordId]/comments                                                       7    5(71.43%)  |   43224    7457   50249   50000  |    0.20    0.10
+ POST /records/[recordId]/comments                                                     61     0(0.00%)  |   15838     963   20819   18000  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]                                                92     0(0.00%)  |   11308    1468   17620   13000  |    2.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                      96     0(0.00%)  |   11183    1361   17558   13000  |    2.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           609     7(1.15%)  |   15271     159   50249   14000  |   12.60    0.10
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      113     0(0.00%)  |   10986     173   17551   12000  |    1.90    0.00
+ POST /files                                                                           66     0(0.00%)  |   17356    2413   22091   19000  |    1.00    0.00
+ GET /record-views/allActive                                                           15     0(0.00%)  |   37498    5891   47618   43000  |    0.70    0.00
+ GET /record-views/allClosed                                                           13     0(0.00%)  |   36207    3843   47794   43000  |    0.40    0.00
+ GET /record-views/mineActive                                                          15     0(0.00%)  |   36705    5862   47536   43000  |    0.70    0.00
+ GET /record-views/tomeActive                                                           9    4(44.44%)  |   42839   16300   50238   50000  |    0.30    0.10
+ POST /records                                                                         48     0(0.00%)  |   20573     181   28454   23000  |    1.20    0.00
+ GET /records/[recordId]                                                               10    4(40.00%)  |   39754   16415   50236   49000  |    0.30    0.10
+ PUT /records/[recordId]                                                              113     0(0.00%)  |   11059     159   17558   12000  |    2.00    0.00
+ GET /records/[recordId]/comments                                                      10    8(80.00%)  |   45323    7457   50249   50000  |    0.60    0.50
+ POST /records/[recordId]/comments                                                     73     0(0.00%)  |   16538     963   21857   19000  |    1.50    0.00
+ GET /records/[recordId]/files/[itemId]                                               105     0(0.00%)  |   11464    1468   17620   13000  |    2.30    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     111     0(0.00%)  |   11217    1361   17558   12000  |    1.90    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           701    16(2.28%)  |   15835     159   50249   14000  |   14.80    0.70
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      113     0(0.00%)  |   10986     173   17551   12000  |    2.40    0.00
+ POST /files                                                                           68     0(0.00%)  |   17422    2413   22091   19000  |    1.60    0.00
+ GET /record-views/allActive                                                           18     0(0.00%)  |   39307    5891   49021   46000  |    0.70    0.00
+ GET /record-views/allClosed                                                           15     0(0.00%)  |   37838    3843   48444   44000  |    0.70    0.00
+ GET /record-views/mineActive                                                          18     0(0.00%)  |   38460    5862   47884   45000  |    0.70    0.00
+ GET /record-views/tomeActive                                                          12    7(58.33%)  |   44689   16300   50259   50000  |    0.60    0.40
+ POST /records                                                                         52     0(0.00%)  |   20815     181   28454   23000  |    0.80    0.00
+ GET /records/[recordId]                                                               13    7(53.85%)  |   42172   16415   50254   50000  |    0.60    0.40
+ PUT /records/[recordId]                                                              113     0(0.00%)  |   11059     159   17558   12000  |    2.30    0.00
+ GET /records/[recordId]/comments                                                      13   11(84.62%)  |   46455    7457   50254   50000  |    0.80    0.80
+ POST /records/[recordId]/comments                                                     73     0(0.00%)  |   16538     963   21857   19000  |    1.60    0.00
+ GET /records/[recordId]/files/[itemId]                                               111     0(0.00%)  |   11399    1468   17620   12000  |    2.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     111     0(0.00%)  |   11217    1361   17558   12000  |    2.20    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           730    25(3.42%)  |   16619     159   50259   14000  |   17.00    1.60
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      115     0(0.00%)  |   10986     173   17551   12000  |    3.00    0.00
+ POST /files                                                                           73     0(0.00%)  |   17667    2413   22091   19000  |    1.90    0.00
+ GET /record-views/allActive                                                           18     0(0.00%)  |   39307    5891   49021   46000  |    0.70    0.00
+ GET /record-views/allClosed                                                           18     0(0.00%)  |   39716    3843   49774   47000  |    0.90    0.00
+ GET /record-views/mineActive                                                          18     0(0.00%)  |   38460    5862   47884   45000  |    1.00    0.00
+ GET /record-views/tomeActive                                                          15   10(66.67%)  |   45795   16300   50259   50000  |    0.90    0.70
+ POST /records                                                                         53     0(0.00%)  |   20921     181   28454   23000  |    1.20    0.00
+ GET /records/[recordId]                                                               16   10(62.50%)  |   43678   16415   50254   50000  |    0.90    0.70
+ PUT /records/[recordId]                                                              114     0(0.00%)  |   11060     159   17558   12000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      17   15(88.24%)  |   47328    7457   50254   50000  |    1.10    1.10
+ POST /records/[recordId]/comments                                                     75     0(0.00%)  |   16651     963   21857   19000  |    1.90    0.00
+ GET /records/[recordId]/files/[itemId]                                               113     0(0.00%)  |   11374    1468   17620   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     112     0(0.00%)  |   11217    1361   17558   12000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           757    35(4.62%)  |   17197     159   50259   14000  |   22.50    2.50
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      122     0(0.00%)  |   10889     173   17551   12000  |    2.80    0.00
+ POST /files                                                                           75     0(0.00%)  |   17696    2413   22091   19000  |    2.00    0.00
+ GET /record-views/allActive                                                           21     0(0.00%)  |   40757    5891   50170   46000  |    1.00    0.00
+ GET /record-views/allClosed                                                           21     1(4.76%)  |   41208    3843   50199   47000  |    1.00    0.00
+ GET /record-views/mineActive                                                          21     0(0.00%)  |   40007    5862   49918   45000  |    1.00    0.00
+ GET /record-views/tomeActive                                                          18   13(72.22%)  |   46527   16300   50259   50000  |    1.20    1.00
+ POST /records                                                                         56     0(0.00%)  |   21132     181   28454   23000  |    1.20    0.00
+ GET /records/[recordId]                                                               19   13(68.42%)  |   44707   16415   50254   50000  |    1.20    1.00
+ PUT /records/[recordId]                                                              122     0(0.00%)  |   10947     159   17558   12000  |    2.90    0.00
+ GET /records/[recordId]/comments                                                      20   18(90.00%)  |   47758    7457   50254   50000  |    1.50    1.50
+ POST /records/[recordId]/comments                                                     80     0(0.00%)  |   16589     963   21857   19000  |    1.90    0.00
+ GET /records/[recordId]/files/[itemId]                                               117     0(0.00%)  |   11303    1468   17620   12000  |    2.90    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     118     0(0.00%)  |   11120    1361   17558   12000  |    2.90    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           810    45(5.56%)  |   17703     159   50259   14000  |   23.50    3.50
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      122     0(0.00%)  |   10889     173   17551   12000  |    3.00    0.00
+ POST /files                                                                           75     0(0.00%)  |   17696    2413   22091   19000  |    2.40    0.00
+ GET /record-views/allActive                                                           22     1(4.55%)  |   41182    5891   50170   46000  |    1.00    0.00
+ GET /record-views/allClosed                                                           22     2(9.09%)  |   41612    3843   50199   47000  |    1.00    0.00
+ GET /record-views/mineActive                                                          22     1(4.55%)  |   40471    5862   50208   45000  |    1.00    0.00
+ GET /record-views/tomeActive                                                          21   16(76.19%)  |   47052   16300   50259   50000  |    1.40    1.20
+ POST /records                                                                         56     0(0.00%)  |   21132     181   28454   23000  |    1.30    0.00
+ GET /records/[recordId]                                                               22   16(72.73%)  |   45454   16415   50254   50000  |    1.30    1.10
+ PUT /records/[recordId]                                                              122     0(0.00%)  |   10947     159   17558   12000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      23   21(91.30%)  |   48074    7457   50254   50000  |    1.60    1.60
+ POST /records/[recordId]/comments                                                     80     0(0.00%)  |   16589     963   21857   19000  |    2.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               117     0(0.00%)  |   11303    1468   17620   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     118     0(0.00%)  |   11120    1361   17558   12000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           822    57(6.93%)  |   18178     159   50259   14000  |   25.10    3.90
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      123     0(0.00%)  |   10910     173   17551   12000  |    2.60    0.00
+ POST /files                                                                           75     0(0.00%)  |   17696    2413   22091   19000  |    2.10    0.00
+ GET /record-views/allActive                                                           25    4(16.00%)  |   42265    5891   50222   47000  |    0.90    0.10
+ GET /record-views/allClosed                                                           25    5(20.00%)  |   42644    3843   50219   48000  |    1.20    0.20
+ GET /record-views/mineActive                                                          25    4(16.00%)  |   41639    5862   50219   46000  |    0.90    0.10
+ GET /record-views/tomeActive                                                          25   20(80.00%)  |   47556   16300   50259   50000  |    1.50    1.50
+ POST /records                                                                         56     0(0.00%)  |   21132     181   28454   23000  |    1.10    0.00
+ GET /records/[recordId]                                                               25   19(76.00%)  |   46025   16415   50254   50000  |    1.50    1.50
+ PUT /records/[recordId]                                                              122     0(0.00%)  |   10947     159   17558   12000  |    2.60    0.00
+ GET /records/[recordId]/comments                                                      26   24(92.31%)  |   48320    7457   50254   50000  |    1.60    1.60
+ POST /records/[recordId]/comments                                                     80     0(0.00%)  |   16589     963   21857   19000  |    2.00    0.00
+ GET /records/[recordId]/files/[itemId]                                               117     0(0.00%)  |   11303    1468   17620   12000  |    2.50    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     119     0(0.00%)  |   11140    1361   17558   12000  |    2.60    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           843    76(9.02%)  |   18888     159   50259   14000  |   23.10    5.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      125     0(0.00%)  |   10982     173   17551   12000  |    1.50    0.00
+ POST /files                                                                           75     0(0.00%)  |   17696    2413   22091   19000  |    1.40    0.00
+ GET /record-views/allActive                                                           29    8(27.59%)  |   43361    5891   50266   48000  |    1.10    0.30
+ GET /record-views/allClosed                                                           28    8(28.57%)  |   43457    3843   50266   48000  |    1.10    0.40
+ GET /record-views/mineActive                                                          28    7(25.00%)  |   42561    5862   50268   47000  |    1.10    0.30
+ GET /record-views/tomeActive                                                          29   24(82.76%)  |   47919   16300   50268   50000  |    1.40    1.40
+ POST /records                                                                         56     0(0.00%)  |   21132     181   28454   23000  |    1.10    0.00
+ GET /records/[recordId]                                                               30   24(80.00%)  |   46717   16415   50266   50000  |    1.40    1.40
+ PUT /records/[recordId]                                                              125     0(0.00%)  |   11054     159   17558   12000  |    1.60    0.00
+ GET /records/[recordId]/comments                                                      29   27(93.10%)  |   48521    7457   50264   50000  |    1.40    1.40
+ POST /records/[recordId]/comments                                                     80     0(0.00%)  |   16589     963   21857   19000  |    1.40    0.00
+ GET /records/[recordId]/files/[itemId]                                               117     0(0.00%)  |   11303    1468   17620   12000  |    1.80    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     122     0(0.00%)  |   11245    1361   17558   12000  |    1.50    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           873   98(11.23%)  |   19646     159   50268   14000  |   17.80    5.20
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      131     0(0.00%)  |   11164     173   17551   12000  |    1.00    0.00
+ POST /files                                                                           79     0(0.00%)  |   17910    2413   22230   20000  |    0.80    0.00
+ GET /record-views/allActive                                                           31   10(32.26%)  |   43802    5891   50266   48000  |    1.40    0.80
+ GET /record-views/allClosed                                                           31   11(35.48%)  |   44111    3843   50266   49000  |    1.30    0.80
+ GET /record-views/mineActive                                                          31   10(32.26%)  |   43299    5862   50268   48000  |    1.00    0.70
+ GET /record-views/tomeActive                                                          31   26(83.87%)  |   48066   16300   50268   50000  |    1.70    1.70
+ POST /records                                                                         63     0(0.00%)  |   22181     181   30782   23000  |    0.40    0.00
+ GET /records/[recordId]                                                               32   26(81.25%)  |   46935   16415   50266   50000  |    1.40    1.40
+ PUT /records/[recordId]                                                              129     0(0.00%)  |   11177     159   17558   12000  |    0.90    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    1.50    1.50
+ POST /records/[recordId]/comments                                                     84     0(0.00%)  |   16834     963   21963   19000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                               123     0(0.00%)  |   11519    1468   17620   12000  |    0.60    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     126     0(0.00%)  |   11365    1361   17558   12000  |    0.80    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           922  112(12.15%)  |   20116     159   50268   15000  |   13.50    6.90
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      131     0(0.00%)  |   11164     173   17551   12000  |    1.30    0.00
+ POST /files                                                                           79     0(0.00%)  |   17910    2413   22230   20000  |    0.60    0.00
+ GET /record-views/allActive                                                           32   11(34.38%)  |   43995    5891   50266   48000  |    1.30    1.00
+ GET /record-views/allClosed                                                           32   12(37.50%)  |   44295    3843   50266   49000  |    1.30    1.10
+ GET /record-views/mineActive                                                          33   12(36.36%)  |   43705    5862   50268   48000  |    1.30    1.00
+ GET /record-views/tomeActive                                                          31   26(83.87%)  |   48066   16300   50268   50000  |    1.60    1.60
+ POST /records                                                                         63     0(0.00%)  |   22181     181   30782   23000  |    0.60    0.00
+ GET /records/[recordId]                                                               32   26(81.25%)  |   46935   16415   50266   50000  |    1.60    1.60
+ PUT /records/[recordId]                                                              130     0(0.00%)  |   11217     159   17558   12000  |    1.30    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    1.40    1.40
+ POST /records/[recordId]/comments                                                     84     0(0.00%)  |   16834     963   21963   19000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                               123     0(0.00%)  |   11519    1468   17620   12000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     127     0(0.00%)  |   11405    1361   17558   12000  |    1.10    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           928  116(12.50%)  |   20236     159   50268   15000  |   15.00    7.70
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      137     0(0.00%)  |   11424     173   17551   12000  |    1.60    0.00
+ POST /files                                                                           79     0(0.00%)  |   17910    2413   22230   20000  |    0.60    0.00
+ GET /record-views/allActive                                                           32   11(34.38%)  |   43995    5891   50266   48000  |    1.30    1.00
+ GET /record-views/allClosed                                                           33   13(39.39%)  |   44468    3843   50266   49000  |    1.30    1.10
+ GET /record-views/mineActive                                                          33   12(36.36%)  |   43705    5862   50268   48000  |    1.30    1.00
+ GET /record-views/tomeActive                                                          31   26(83.87%)  |   48066   16300   50268   50000  |    1.40    1.40
+ POST /records                                                                         67     0(0.00%)  |   22500     181   30782   24000  |    1.00    0.00
+ GET /records/[recordId]                                                               32   26(81.25%)  |   46935   16415   50266   50000  |    1.50    1.50
+ PUT /records/[recordId]                                                              136     0(0.00%)  |   11469     159   17558   12000  |    1.50    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    1.30    1.30
+ POST /records/[recordId]/comments                                                     84     0(0.00%)  |   16834     963   21963   19000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]                                               126     0(0.00%)  |   11653    1468   17620   12000  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     132     0(0.00%)  |   11619    1361   17558   12000  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                           953  117(12.28%)  |   20231     159   50268   15000  |   16.10    7.30
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      145     0(0.00%)  |   11751     173   18256   13000  |    1.50    0.00
+ POST /files                                                                           85     0(0.00%)  |   18213    2413   23027   20000  |    0.40    0.00
+ GET /record-views/allActive                                                           33   12(36.36%)  |   44177    5891   50266   48000  |    1.00    1.00
+ GET /record-views/allClosed                                                           33   13(39.39%)  |   44468    3843   50266   49000  |    1.10    1.10
+ GET /record-views/mineActive                                                          33   12(36.36%)  |   43705    5862   50268   48000  |    1.10    1.10
+ GET /record-views/tomeActive                                                          31   26(83.87%)  |   48066   16300   50268   50000  |    1.00    1.00
+ POST /records                                                                         70     0(0.00%)  |   22722     181   30782   24000  |    1.10    0.00
+ GET /records/[recordId]                                                               32   26(81.25%)  |   46935   16415   50266   50000  |    1.00    1.00
+ PUT /records/[recordId]                                                              144     0(0.00%)  |   11821     159   18296   13000  |    1.40    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.80    0.80
+ POST /records/[recordId]/comments                                                     91     0(0.00%)  |   17235     963   22729   19000  |    0.40    0.00
+ GET /records/[recordId]/files/[itemId]                                               143     0(0.00%)  |   12351    1468   18332   13000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     142     0(0.00%)  |   12060    1361   18278   13000  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1013  118(11.65%)  |   20196     159   50268   15000  |   13.10    6.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      152     0(0.00%)  |   11951     173   18256   13000  |    2.30    0.00
+ POST /files                                                                           86     0(0.00%)  |   18267    2413   23027   20000  |    0.80    0.00
+ GET /record-views/allActive                                                           33   12(36.36%)  |   44177    5891   50266   48000  |    0.90    0.90
+ GET /record-views/allClosed                                                           33   13(39.39%)  |   44468    3843   50266   49000  |    0.90    0.90
+ GET /record-views/mineActive                                                          33   12(36.36%)  |   43705    5862   50268   48000  |    0.90    0.90
+ GET /record-views/tomeActive                                                          31   26(83.87%)  |   48066   16300   50268   50000  |    0.80    0.80
+ POST /records                                                                         70     0(0.00%)  |   22722     181   30782   24000  |    1.40    0.00
+ GET /records/[recordId]                                                               32   26(81.25%)  |   46935   16415   50266   50000  |    0.80    0.80
+ PUT /records/[recordId]                                                              149     0(0.00%)  |   11964     159   18296   13000  |    2.20    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.70    0.70
+ POST /records/[recordId]/comments                                                     96     0(0.00%)  |   17482     963   22729   19000  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]                                               144     0(0.00%)  |   12377    1468   18332   13000  |    2.40    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     148     0(0.00%)  |   12223    1361   18278   13000  |    2.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1038  118(11.37%)  |   20132     159   50268   16000  |   17.50    5.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      161     0(0.00%)  |   11784     173   18256   13000  |    2.20    0.00
+ POST /files                                                                          101     0(0.00%)  |   18677    2413   23027   20000  |    1.00    0.00
+ GET /record-views/allActive                                                           33   12(36.36%)  |   44177    5891   50266   48000  |    0.70    0.70
+ GET /record-views/allClosed                                                           33   13(39.39%)  |   44468    3843   50266   49000  |    0.70    0.70
+ GET /record-views/mineActive                                                          33   12(36.36%)  |   43705    5862   50268   48000  |    0.80    0.80
+ GET /record-views/tomeActive                                                          31   26(83.87%)  |   48066   16300   50268   50000  |    0.60    0.60
+ POST /records                                                                         75     0(0.00%)  |   22903     181   30782   24000  |    1.40    0.00
+ GET /records/[recordId]                                                               32   26(81.25%)  |   46935   16415   50266   50000  |    0.70    0.70
+ PUT /records/[recordId]                                                              159     0(0.00%)  |   11910     159   18296   13000  |    2.20    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.50    0.50
+ POST /records/[recordId]/comments                                                    105     0(0.00%)  |   17774     963   22729   19000  |    1.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               153     0(0.00%)  |   12293    1468   18332   13000  |    2.60    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     156     0(0.00%)  |   12069    1361   18278   13000  |    2.30    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1103  118(10.70%)  |   19848     159   50268   16000  |   16.80    4.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      161     0(0.00%)  |   11784     173   18256   13000  |    3.50    0.00
+ POST /files                                                                          102     0(0.00%)  |   18699    2413   23027   20000  |    2.60    0.00
+ GET /record-views/allActive                                                           33   12(36.36%)  |   44177    5891   50266   48000  |    0.20    0.20
+ GET /record-views/allClosed                                                           33   13(39.39%)  |   44468    3843   50266   49000  |    0.20    0.20
+ GET /record-views/mineActive                                                          34   13(38.24%)  |   43890    5862   50268   48000  |    0.20    0.20
+ GET /record-views/tomeActive                                                          31   26(83.87%)  |   48066   16300   50268   50000  |    0.00    0.00
+ POST /records                                                                         75     0(0.00%)  |   22903     181   30782   24000  |    1.70    0.00
+ GET /records/[recordId]                                                               33   27(81.82%)  |   47028   16415   50266   50000  |    0.00    0.00
+ PUT /records/[recordId]                                                              160     0(0.00%)  |   11895     159   18296   13000  |    3.30    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    105     0(0.00%)  |   17774     963   22729   19000  |    2.50    0.00
+ GET /records/[recordId]/files/[itemId]                                               153     0(0.00%)  |   12293    1468   18332   13000  |    3.30    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     157     0(0.00%)  |   12053    1361   18278   13000  |    3.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1108  120(10.83%)  |   19884     159   50268   16000  |   20.90    0.60
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      174     0(0.00%)  |   11455     173   18256   12000  |    3.00    0.00
+ POST /files                                                                          105     0(0.00%)  |   18756    2413   23027   20000  |    2.20    0.00
+ GET /record-views/allActive                                                           34   12(35.29%)  |   44338    5891   50266   48000  |    0.20    0.20
+ GET /record-views/allClosed                                                           34   14(41.18%)  |   44630    3843   50266   49000  |    0.10    0.10
+ GET /record-views/mineActive                                                          34   13(38.24%)  |   43890    5862   50268   48000  |    0.30    0.30
+ GET /record-views/tomeActive                                                          32   27(84.38%)  |   48126   16300   50268   50000  |    0.00    0.00
+ POST /records                                                                         83     0(0.00%)  |   23076     181   30782   24000  |    1.20    0.00
+ GET /records/[recordId]                                                               33   27(81.82%)  |   47028   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              174     0(0.00%)  |   11535     159   18296   12000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    114     0(0.00%)  |   17685     963   22729   19000  |    2.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               171     0(0.00%)  |   11754    1468   18332   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     172     0(0.00%)  |   11636    1361   18278   12000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1191  122(10.24%)  |   19336     159   50268   15000  |   18.20    0.70
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      174     0(0.00%)  |   11455     173   18256   12000  |    3.00    0.00
+ POST /files                                                                          105     0(0.00%)  |   18756    2413   23027   20000  |    2.20    0.00
+ GET /record-views/allActive                                                           34   12(35.29%)  |   44338    5891   50266   48000  |    0.20    0.20
+ GET /record-views/allClosed                                                           34   14(41.18%)  |   44630    3843   50266   49000  |    0.10    0.10
+ GET /record-views/mineActive                                                          34   13(38.24%)  |   43890    5862   50268   48000  |    0.30    0.30
+ GET /record-views/tomeActive                                                          32   27(84.38%)  |   48126   16300   50268   50000  |    0.00    0.00
+ POST /records                                                                         83     0(0.00%)  |   23076     181   30782   24000  |    1.20    0.00
+ GET /records/[recordId]                                                               33   27(81.82%)  |   47028   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              174     0(0.00%)  |   11535     159   18296   12000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    114     0(0.00%)  |   17685     963   22729   19000  |    2.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               171     0(0.00%)  |   11754    1468   18332   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     172     0(0.00%)  |   11636    1361   18278   12000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1191  122(10.24%)  |   19336     159   50268   15000  |   18.20    0.70
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      174     0(0.00%)  |   11455     173   18256   12000  |    3.00    0.00
+ POST /files                                                                          105     0(0.00%)  |   18756    2413   23027   20000  |    2.20    0.00
+ GET /record-views/allActive                                                           34   12(35.29%)  |   44338    5891   50266   48000  |    0.20    0.20
+ GET /record-views/allClosed                                                           34   14(41.18%)  |   44630    3843   50266   49000  |    0.10    0.10
+ GET /record-views/mineActive                                                          34   13(38.24%)  |   43890    5862   50268   48000  |    0.30    0.30
+ GET /record-views/tomeActive                                                          32   27(84.38%)  |   48126   16300   50268   50000  |    0.00    0.00
+ POST /records                                                                         83     0(0.00%)  |   23076     181   30782   24000  |    1.20    0.00
+ GET /records/[recordId]                                                               33   27(81.82%)  |   47028   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              174     0(0.00%)  |   11535     159   18296   12000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    114     0(0.00%)  |   17685     963   22729   19000  |    2.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               171     0(0.00%)  |   11754    1468   18332   12000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     172     0(0.00%)  |   11636    1361   18278   12000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1191  122(10.24%)  |   19336     159   50268   15000  |   18.20    0.70
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      174     0(0.00%)  |   11455     173   18256   12000  |    2.90    0.00
+ POST /files                                                                          105     0(0.00%)  |   18756    2413   23027   20000  |    2.00    0.00
+ GET /record-views/allActive                                                           36   14(38.89%)  |   44653    5891   50266   49000  |    0.10    0.00
+ GET /record-views/allClosed                                                           34   14(41.18%)  |   44630    3843   50266   49000  |    0.10    0.10
+ GET /record-views/mineActive                                                          36   15(41.67%)  |   44238    5862   50268   48000  |    0.10    0.10
+ GET /record-views/tomeActive                                                          33   28(84.85%)  |   48188   16300   50268   50000  |    0.10    0.10
+ POST /records                                                                         83     0(0.00%)  |   23076     181   30782   24000  |    1.30    0.00
+ GET /records/[recordId]                                                               34   28(82.35%)  |   47116   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              174     0(0.00%)  |   11535     159   18296   12000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    114     0(0.00%)  |   17685     963   22729   19000  |    2.30    0.00
+ GET /records/[recordId]/files/[itemId]                                               171     0(0.00%)  |   11754    1468   18332   12000  |    2.80    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     172     0(0.00%)  |   11636    1361   18278   12000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1197  128(10.69%)  |   19490     159   50268   15000  |   17.80    0.40
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      175     0(0.00%)  |   11471     173   18256   12000  |    2.10    0.00
+ POST /files                                                                          107     0(0.00%)  |   18779    2413   23027   20000  |    1.10    0.00
+ GET /record-views/allActive                                                           36   14(38.89%)  |   44653    5891   50266   49000  |    0.10    0.00
+ GET /record-views/allClosed                                                           36   16(44.44%)  |   44929    3843   50266   50000  |    0.10    0.10
+ GET /record-views/mineActive                                                          36   15(41.67%)  |   44238    5862   50268   48000  |    0.10    0.10
+ GET /record-views/tomeActive                                                          33   28(84.85%)  |   48188   16300   50268   50000  |    0.10    0.10
+ POST /records                                                                         83     0(0.00%)  |   23076     181   30782   24000  |    1.30    0.00
+ GET /records/[recordId]                                                               34   28(82.35%)  |   47116   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              174     0(0.00%)  |   11535     159   18296   12000  |    2.20    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    114     0(0.00%)  |   17685     963   22729   19000  |    1.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               173     0(0.00%)  |   11784    1468   18332   12000  |    2.40    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     172     0(0.00%)  |   11636    1361   18278   12000  |    2.30    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1204  130(10.80%)  |   19529     159   50268   15000  |   13.00    0.40
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      179     0(0.00%)  |   11536     173   18256   12000  |    1.40    0.00
+ POST /files                                                                          110     0(0.00%)  |   18823    2413   23027   20000  |    0.60    0.00
+ GET /record-views/allActive                                                           36   14(38.89%)  |   44653    5891   50266   49000  |    0.30    0.20
+ GET /record-views/allClosed                                                           36   16(44.44%)  |   44929    3843   50266   50000  |    0.30    0.30
+ GET /record-views/mineActive                                                          36   15(41.67%)  |   44238    5862   50268   48000  |    0.20    0.20
+ GET /record-views/tomeActive                                                          33   28(84.85%)  |   48188   16300   50268   50000  |    0.20    0.20
+ POST /records                                                                         93     0(0.00%)  |   23312     181   30782   24000  |    0.80    0.00
+ GET /records/[recordId]                                                               34   28(82.35%)  |   47116   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              177     0(0.00%)  |   11584     159   18296   12000  |    1.50    0.00
+ GET /records/[recordId]/comments                                                      31   29(93.55%)  |   48629    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    120     0(0.00%)  |   17668     963   22729   19000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]                                               173     0(0.00%)  |   11784    1468   18332   12000  |    2.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     176     0(0.00%)  |   11699    1361   18278   12000  |    1.60    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1234  130(10.53%)  |   19521     159   50268   15000  |    9.90    1.00
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      191     0(0.00%)  |   11820     173   18256   13000  |    0.10    0.00
+ POST /files                                                                          115     0(0.00%)  |   18867    2413   23027   20000  |    0.40    0.00
+ GET /record-views/allActive                                                           36   14(38.89%)  |   44653    5891   50266   49000  |    0.20    0.20
+ GET /record-views/allClosed                                                           36   16(44.44%)  |   44929    3843   50266   50000  |    0.20    0.20
+ GET /record-views/mineActive                                                          36   15(41.67%)  |   44238    5862   50268   48000  |    0.20    0.20
+ GET /record-views/tomeActive                                                          33   28(84.85%)  |   48188   16300   50268   50000  |    0.20    0.20
+ POST /records                                                                         93     0(0.00%)  |   23312     181   30782   24000  |    0.40    0.00
+ GET /records/[recordId]                                                               34   28(82.35%)  |   47116   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              189     0(0.00%)  |   11872     159   18296   13000  |    0.00    0.00
+ GET /records/[recordId]/comments                                                      32   30(93.75%)  |   48672    7457   50264   50000  |    0.00    0.00
+ POST /records/[recordId]/comments                                                    121     0(0.00%)  |   17681     963   22729   19000  |    0.00    0.00
+ GET /records/[recordId]/files/[itemId]                                               183     0(0.00%)  |   12018    1468   18332   13000  |    0.20    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     186     0(0.00%)  |   11932    1361   18278   13000  |    0.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1285  131(10.19%)  |   19427     159   50268   16000  |    2.00    0.90
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      191     0(0.00%)  |   11820     173   18256   13000  |    0.80    0.00
+ POST /files                                                                          115     0(0.00%)  |   18867    2413   23027   20000  |    0.50    0.00
+ GET /record-views/allActive                                                           38   14(36.84%)  |   44919    5891   50266   49000  |    0.20    0.20
+ GET /record-views/allClosed                                                           36   16(44.44%)  |   44929    3843   50266   50000  |    0.20    0.20
+ GET /record-views/mineActive                                                          38   15(39.47%)  |   44502    5862   50268   49000  |    0.20    0.20
+ GET /record-views/tomeActive                                                          33   28(84.85%)  |   48188   16300   50268   50000  |    0.10    0.10
+ POST /records                                                                         97     0(0.00%)  |   23289     181   30782   24000  |    1.00    0.00
+ GET /records/[recordId]                                                               34   28(82.35%)  |   47116   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              189     0(0.00%)  |   11872     159   18296   13000  |    0.70    0.00
+ GET /records/[recordId]/comments                                                      32   30(93.75%)  |   48672    7457   50264   50000  |    0.10    0.10
+ POST /records/[recordId]/comments                                                    121     0(0.00%)  |   17681     963   22729   19000  |    0.60    0.00
+ GET /records/[recordId]/files/[itemId]                                               183     0(0.00%)  |   12018    1468   18332   13000  |    0.20    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     186     0(0.00%)  |   11932    1361   18278   13000  |    0.60    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1293  131(10.13%)  |   19531     159   50268   16000  |    5.30    0.90
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      205     0(0.00%)  |   12020     173   18256   13000  |    1.70    0.00
+ POST /files                                                                          131     0(0.00%)  |   19019    2413   23027   20000  |    1.00    0.00
+ GET /record-views/allActive                                                           43   14(32.56%)  |   45110    5891   50266   48000  |    0.20    0.20
+ GET /record-views/allClosed                                                           38   16(42.11%)  |   45192    3843   50266   50000  |    0.20    0.20
+ GET /record-views/mineActive                                                          43   15(34.88%)  |   44763    5862   50268   48000  |    0.40    0.20
+ GET /record-views/tomeActive                                                          33   28(84.85%)  |   48188   16300   50268   50000  |    0.10    0.10
+ POST /records                                                                        100     0(0.00%)  |   23261     181   30782   24000  |    1.40    0.00
+ GET /records/[recordId]                                                               34   28(82.35%)  |   47116   16415   50266   50000  |    0.10    0.10
+ PUT /records/[recordId]                                                              204     0(0.00%)  |   12125     159   18296   13000  |    1.50    0.00
+ GET /records/[recordId]/comments                                                      32   30(93.75%)  |   48672    7457   50264   50000  |    0.10    0.10
+ POST /records/[recordId]/comments                                                    135     0(0.00%)  |   17898     963   22729   19000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                               203     0(0.00%)  |   12284    1468   18332   13000  |    1.20    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     202     0(0.00%)  |   12201    1361   18278   13000  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1403   131(9.34%)  |   19573     159   50268   16000  |   10.00    0.90
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      205     0(0.00%)  |   12020     173   18256   13000  |    3.00    0.00
+ POST /files                                                                          132     0(0.00%)  |   19016    2413   23027   20000  |    1.10    0.00
+ GET /record-views/allActive                                                           43   14(32.56%)  |   45110    5891   50266   48000  |    0.20    0.00
+ GET /record-views/allClosed                                                           38   16(42.11%)  |   45192    3843   50266   50000  |    0.40    0.20
+ GET /record-views/mineActive                                                          43   15(34.88%)  |   44763    5862   50268   48000  |    0.20    0.00
+ GET /record-views/tomeActive                                                          33   28(84.85%)  |   48188   16300   50268   50000  |    0.00    0.00
+ POST /records                                                                        100     0(0.00%)  |   23261     181   30782   24000  |    1.70    0.00
+ GET /records/[recordId]                                                               35   29(82.86%)  |   47198   16415   50266   50000  |    0.00    0.00
+ PUT /records/[recordId]                                                              204     0(0.00%)  |   12125     159   18296   13000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      33   31(93.94%)  |   48713    7457   50264   50000  |    0.10    0.10
+ POST /records/[recordId]/comments                                                    135     0(0.00%)  |   17898     963   22729   19000  |    1.60    0.00
+ GET /records/[recordId]/files/[itemId]                                               203     0(0.00%)  |   12284    1468   18332   13000  |    2.50    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     202     0(0.00%)  |   12201    1361   18278   13000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1406   133(9.46%)  |   19616     159   50268   16000  |   16.80    0.30
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      221     0(0.00%)  |   11722     173   18256   13000  |    3.00    0.00
+ POST /files                                                                          137     0(0.00%)  |   18950    2413   23027   20000  |    2.50    0.00
+ GET /record-views/allActive                                                           44   14(31.82%)  |   45166    5891   50266   48000  |    0.70    0.00
+ GET /record-views/allClosed                                                           43   16(37.21%)  |   45625    3843   50266   50000  |    0.20    0.00
+ GET /record-views/mineActive                                                          48   15(31.25%)  |   44966    5862   50268   47000  |    0.70    0.00
+ GET /record-views/tomeActive                                                          36   31(86.11%)  |   48341   16300   50268   50000  |    0.00    0.00
+ POST /records                                                                        105     0(0.00%)  |   23309     181   30782   24000  |    1.70    0.00
+ GET /records/[recordId]                                                               37   31(83.78%)  |   47351   16415   50266   50000  |    0.00    0.00
+ PUT /records/[recordId]                                                              218     0(0.00%)  |   11851     159   18296   13000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      37   35(94.59%)  |   48857    7457   50264   50000  |    0.10    0.10
+ POST /records/[recordId]/comments                                                    144     0(0.00%)  |   18042     963   22729   19000  |    2.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               213     0(0.00%)  |   12059    1468   18332   13000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     216     0(0.00%)  |   11926    1361   18278   13000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1499   142(9.47%)  |   19591     159   50268   16000  |   20.00    0.10
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      221     0(0.00%)  |   11722     173   18256   13000  |    3.00    0.00
+ POST /files                                                                          137     0(0.00%)  |   18950    2413   23027   20000  |    2.30    0.00
+ GET /record-views/allActive                                                           48   14(29.17%)  |   45267    5891   50266   48000  |    0.70    0.00
+ GET /record-views/allClosed                                                           48   16(33.33%)  |   45805    3843   50266   49000  |    0.70    0.00
+ GET /record-views/mineActive                                                          48   15(31.25%)  |   44966    5862   50268   47000  |    0.70    0.00
+ GET /record-views/tomeActive                                                          38   33(86.84%)  |   48430   16300   50268   50000  |    0.20    0.20
+ POST /records                                                                        105     0(0.00%)  |   23309     181   30782   24000  |    1.30    0.00
+ GET /records/[recordId]                                                               39   33(84.62%)  |   47489   16415   50266   50000  |    0.20    0.20
+ PUT /records/[recordId]                                                              219     0(0.00%)  |   11834     159   18296   13000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      39   37(94.87%)  |   48918    7457   50264   50000  |    0.40    0.40
+ POST /records/[recordId]/comments                                                    144     0(0.00%)  |   18042     963   22729   19000  |    2.10    0.00
+ GET /records/[recordId]/files/[itemId]                                               213     0(0.00%)  |   12059    1468   18332   13000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     216     0(0.00%)  |   11926    1361   18278   13000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1515   148(9.77%)  |   19867     159   50268   16000  |   20.60    0.80
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      221     0(0.00%)  |   11722     173   18256   13000  |    3.90    0.00
+ POST /files                                                                          137     0(0.00%)  |   18950    2413   23027   20000  |    2.70    0.00
+ GET /record-views/allActive                                                           48   14(29.17%)  |   45267    5891   50266   48000  |    1.20    0.00
+ GET /record-views/allClosed                                                           48   16(33.33%)  |   45805    3843   50266   49000  |    0.70    0.00
+ GET /record-views/mineActive                                                          48   15(31.25%)  |   44966    5862   50268   47000  |    1.20    0.00
+ GET /record-views/tomeActive                                                          42   37(88.10%)  |   48586   16300   50268   50000  |    0.50    0.50
+ POST /records                                                                        105     0(0.00%)  |   23309     181   30782   24000  |    1.20    0.00
+ GET /records/[recordId]                                                               43   37(86.05%)  |   47729   16415   50266   50000  |    0.40    0.40
+ PUT /records/[recordId]                                                              219     0(0.00%)  |   11834     159   18296   13000  |    3.80    0.00
+ GET /records/[recordId]/comments                                                      43   41(95.35%)  |   49025    7457   50264   50000  |    0.60    0.60
+ POST /records/[recordId]/comments                                                    144     0(0.00%)  |   18042     963   22729   19000  |    2.40    0.00
+ GET /records/[recordId]/files/[itemId]                                               213     0(0.00%)  |   12059    1468   18332   13000  |    4.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     216     0(0.00%)  |   11926    1361   18278   13000  |    3.80    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1527  160(10.48%)  |   20104     159   50268   16000  |   26.40    1.50
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      221     0(0.00%)  |   11722     173   18256   13000  |    3.00    0.00
+ POST /files                                                                          137     0(0.00%)  |   18950    2413   23027   20000  |    2.20    0.00
+ GET /record-views/allActive                                                           48   14(29.17%)  |   45267    5891   50266   48000  |    1.20    0.00
+ GET /record-views/allClosed                                                           48   16(33.33%)  |   45805    3843   50266   49000  |    1.20    0.00
+ GET /record-views/mineActive                                                          48   15(31.25%)  |   44966    5862   50268   47000  |    1.00    0.00
+ GET /record-views/tomeActive                                                          45   40(88.89%)  |   48682   16300   50268   50000  |    0.80    0.80
+ POST /records                                                                        105     0(0.00%)  |   23309     181   30782   24000  |    0.80    0.00
+ GET /records/[recordId]                                                               46   40(86.96%)  |   47879   16415   50266   50000  |    0.70    0.70
+ PUT /records/[recordId]                                                              219     0(0.00%)  |   11834     159   18296   13000  |    3.00    0.00
+ GET /records/[recordId]/comments                                                      47   45(95.74%)  |   49110    7457   50264   50000  |    0.90    0.90
+ POST /records/[recordId]/comments                                                    144     0(0.00%)  |   18042     963   22729   19000  |    2.30    0.00
+ GET /records/[recordId]/files/[itemId]                                               213     0(0.00%)  |   12059    1468   18332   13000  |    3.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     216     0(0.00%)  |   11926    1361   18278   13000  |    3.00    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1537  170(11.06%)  |   20299     159   50268   16000  |   23.10    2.40
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      221     0(0.00%)  |   11722     173   18256   13000  |    1.70    0.00
+ POST /files                                                                          137     0(0.00%)  |   18950    2413   23027   20000  |    2.10    0.00
+ GET /record-views/allActive                                                           51   17(33.33%)  |   45546    5891   50266   48000  |    1.00    0.00
+ GET /record-views/allClosed                                                           49   17(34.69%)  |   45892    3843   50266   49000  |    1.00    0.00
+ GET /record-views/mineActive                                                          51   18(35.29%)  |   45262    5862   50268   48000  |    1.00    0.00
+ GET /record-views/tomeActive                                                          48   43(89.58%)  |   48767   16300   50268   50000  |    1.10    1.10
+ POST /records                                                                        105     0(0.00%)  |   23309     181   30782   24000  |    0.50    0.00
+ GET /records/[recordId]                                                               49   43(87.76%)  |   48013   16415   50266   50000  |    1.00    1.00
+ PUT /records/[recordId]                                                              219     0(0.00%)  |   11834     159   18296   13000  |    1.50    0.00
+ GET /records/[recordId]/comments                                                      50   48(96.00%)  |   49168    7457   50264   50000  |    1.30    1.30
+ POST /records/[recordId]/comments                                                    144     0(0.00%)  |   18042     963   22729   19000  |    1.40    0.00
+ GET /records/[recordId]/files/[itemId]                                               213     0(0.00%)  |   12059    1468   18332   13000  |    1.70    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     216     0(0.00%)  |   11926    1361   18278   13000  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1553  186(11.98%)  |   20605     159   50268   16000  |   16.70    3.40
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      221     0(0.00%)  |   11722     173   18256   13000  |    1.60    0.00
+ POST /files                                                                          138     0(0.00%)  |   18963    2413   23027   20000  |    0.50    0.00
+ GET /record-views/allActive                                                           52   18(34.62%)  |   45632    5891   50266   48000  |    0.50    0.00
+ GET /record-views/allClosed                                                           52   20(38.46%)  |   46130    3843   50266   50000  |    1.00    0.00
+ GET /record-views/mineActive                                                          52   19(36.54%)  |   45354    5862   50268   48000  |    0.50    0.00
+ GET /record-views/tomeActive                                                          51   46(90.20%)  |   48842   16300   50268   50000  |    1.40    1.40
+ POST /records                                                                        105     0(0.00%)  |   23309     181   30782   24000  |    0.50    0.00
+ GET /records/[recordId]                                                               52   46(88.46%)  |   48130   16415   50266   50000  |    1.30    1.30
+ PUT /records/[recordId]                                                              219     0(0.00%)  |   11834     159   18296   13000  |    1.50    0.00
+ GET /records/[recordId]/comments                                                      53   51(96.23%)  |   49218    7457   50264   50000  |    1.60    1.60
+ POST /records/[recordId]/comments                                                    144     0(0.00%)  |   18042     963   22729   19000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]                                               213     0(0.00%)  |   12059    1468   18332   13000  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     216     0(0.00%)  |   11926    1361   18278   13000  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1568  200(12.76%)  |   20868     159   50268   16000  |   13.70    4.30
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      231     0(0.00%)  |   11879     173   18256   13000  |    1.60    0.00
+ POST /files                                                                          140     0(0.00%)  |   18987    2413   23027   20000  |    0.50    0.00
+ GET /record-views/allActive                                                           58   18(31.03%)  |   45987    5891   50266   48000  |    0.80    0.30
+ GET /record-views/allClosed                                                           54   22(40.74%)  |   46278    3843   50266   50000  |    0.80    0.30
+ GET /record-views/mineActive                                                          58   19(32.76%)  |   45699    5862   50268   48000  |    0.80    0.30
+ GET /record-views/tomeActive                                                          53   48(90.57%)  |   48889   16300   50268   50000  |    1.50    1.50
+ POST /records                                                                        113     0(0.00%)  |   23878     181   31444   24000  |    0.50    0.00
+ GET /records/[recordId]                                                               54   48(88.89%)  |   48203   16415   50266   50000  |    1.40    1.40
+ PUT /records/[recordId]                                                              231     0(0.00%)  |   12018     159   18296   13000  |    1.50    0.00
+ GET /records/[recordId]/comments                                                      54   52(96.30%)  |   49234    7457   50264   50000  |    1.60    1.60
+ POST /records/[recordId]/comments                                                    151     0(0.00%)  |   18139     963   22729   19000  |    0.90    0.00
+ GET /records/[recordId]/files/[itemId]                                               220     0(0.00%)  |   12165    1468   18332   13000  |    1.00    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     228     0(0.00%)  |   12108    1361   18278   13000  |    1.40    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1645  207(12.58%)  |   21108     159   50268   16000  |   14.30    5.40
+
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      233     0(0.00%)  |   11925     173   18256   13000  |    1.00    0.00
+ POST /files                                                                          140     0(0.00%)  |   18987    2413   23027   20000  |    0.30    0.00
+ GET /record-views/allActive                                                           60   18(30.00%)  |   46069    5891   50266   48000  |    0.60    0.40
+ GET /record-views/allClosed                                                           57   25(43.86%)  |   46477    3843   50266   50000  |    1.00    0.50
+ GET /record-views/mineActive                                                          60   19(31.67%)  |   45765    5862   50268   48000  |    0.90    0.40
+ GET /record-views/tomeActive                                                          56   51(91.07%)  |   48953   16300   50268   50000  |    1.40    1.40
+ POST /records                                                                        113     0(0.00%)  |   23878     181   31444   24000  |    0.80    0.00
+ GET /records/[recordId]                                                               57   51(89.47%)  |   48301   16415   50266   50000  |    1.50    1.50
+ PUT /records/[recordId]                                                              231     0(0.00%)  |   12018     159   18296   13000  |    1.20    0.00
+ GET /records/[recordId]/comments                                                      58   56(96.55%)  |   49292    7457   50264   50000  |    1.60    1.60
+ POST /records/[recordId]/comments                                                    151     0(0.00%)  |   18139     963   22729   19000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                               220     0(0.00%)  |   12165    1468   18332   13000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     228     0(0.00%)  |   12108    1361   18278   13000  |    1.20    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1664  220(13.22%)  |   21394     159   50268   16000  |   12.90    5.80
+
+[2022-04-17 03:45:03,330] env15-olive/INFO/locust.main: --run-time limit reached. Stopping Locust
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      233     0(0.00%)  |   11925     173   18256   13000  |    1.20    0.00
+ POST /files                                                                          140     0(0.00%)  |   18987    2413   23027   20000  |    0.30    0.00
+ GET /record-views/allActive                                                           60   18(30.00%)  |   46069    5891   50266   48000  |    1.10    0.40
+ GET /record-views/allClosed                                                           60   26(43.33%)  |   46643    3843   50266   50000  |    0.80    0.80
+ GET /record-views/mineActive                                                          60   19(31.67%)  |   45765    5862   50268   48000  |    1.20    0.40
+ GET /record-views/tomeActive                                                          60   55(91.67%)  |   49030   16300   50268   50000  |    1.40    1.40
+ POST /records                                                                        113     0(0.00%)  |   23878     181   31444   24000  |    0.80    0.00
+ GET /records/[recordId]                                                               62   56(90.32%)  |   48445   16415   50266   50000  |    1.50    1.50
+ PUT /records/[recordId]                                                              231     0(0.00%)  |   12018     159   18296   13000  |    1.20    0.00
+ GET /records/[recordId]/comments                                                      61   59(96.72%)  |   49331    7457   50264   50000  |    1.60    1.60
+ POST /records/[recordId]/comments                                                    151     0(0.00%)  |   18139     963   22729   19000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]                                               220     0(0.00%)  |   12165    1468   18332   13000  |    0.70    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     228     0(0.00%)  |   12108    1361   18278   13000  |    1.20    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1679  233(13.88%)  |   21650     159   50268   16000  |   13.70    6.10
+
+[2022-04-17 03:45:04,767] env15-olive/INFO/locust.main: Shutting down (exit code 1)
+ Name                                                                              # reqs      # fails  |     Avg     Min     Max  Median  |   req/s failures/s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ GET /categories                                                                      233     0(0.00%)  |   11925     173   18256   13000  |    1.95    0.00
+ POST /files                                                                          140     0(0.00%)  |   18987    2413   23027   20000  |    1.17    0.00
+ GET /record-views/allActive                                                           60   18(30.00%)  |   46069    5891   50266   48000  |    0.50    0.15
+ GET /record-views/allClosed                                                           60   26(43.33%)  |   46643    3843   50266   50000  |    0.50    0.22
+ GET /record-views/mineActive                                                          60   19(31.67%)  |   45765    5862   50268   48000  |    0.50    0.16
+ GET /record-views/tomeActive                                                          60   55(91.67%)  |   49030   16300   50268   50000  |    0.50    0.46
+ POST /records                                                                        113     0(0.00%)  |   23878     181   31444   24000  |    0.95    0.00
+ GET /records/[recordId]                                                               62   56(90.32%)  |   48445   16415   50266   50000  |    0.52    0.47
+ PUT /records/[recordId]                                                              231     0(0.00%)  |   12018     159   18296   13000  |    1.93    0.00
+ GET /records/[recordId]/comments                                                      61   59(96.72%)  |   49331    7457   50264   50000  |    0.51    0.49
+ POST /records/[recordId]/comments                                                    151     0(0.00%)  |   18139     963   22729   19000  |    1.26    0.00
+ GET /records/[recordId]/files/[itemId]                                               220     0(0.00%)  |   12165    1468   18332   13000  |    1.84    0.00
+ GET /records/[recordId]/files/[itemId]/thumbnail                                     228     0(0.00%)  |   12108    1361   18278   13000  |    1.91    0.00
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregated                                                                          1679  233(13.88%)  |   21650     159   50268   16000  |   14.06    1.95
+
+Response time percentiles (approximated)
+ Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|---------|------|------|------|------|------|------|------|------|------|------|------|
+ GET      /categories                                                                         13000  15000  15000  15000  16000  18000  18000  18000  18000  18000  18000    233
+ POST     /files                                                                              20000  21000  21000  21000  22000  22000  23000  23000  23000  23000  23000    140
+ GET      /record-views/allActive                                                             48000  50000  50000  50000  50000  50000  50000  50000  50000  50000  50000     60
+ GET      /record-views/allClosed                                                             50000  50000  50000  50000  50000  50000  50000  50000  50000  50000  50000     60
+ GET      /record-views/mineActive                                                            48000  50000  50000  50000  50000  50000  50000  50000  50000  50000  50000     60
+ GET      /record-views/tomeActive                                                            50000  50000  50000  50000  50000  50000  50000  50000  50000  50000  50000     60
+ POST     /records                                                                            24000  25000  27000  28000  31000  31000  31000  31000  31000  31000  31000    113
+ GET      /records/[recordId]                                                                 50000  50000  50000  50000  50000  50000  50000  50000  50000  50000  50000     62
+ PUT      /records/[recordId]                                                                 13000  15000  15000  16000  16000  18000  18000  18000  18000  18000  18000    231
+ GET      /records/[recordId]/comments                                                        50000  50000  50000  50000  50000  50000  50000  50000  50000  50000  50000     61
+ POST     /records/[recordId]/comments                                                        19000  20000  20000  21000  22000  22000  22000  23000  23000  23000  23000    151
+ GET      /records/[recordId]/files/[itemId]                                                  13000  15000  16000  16000  17000  18000  18000  18000  18000  18000  18000    220
+ GET      /records/[recordId]/files/[itemId]/thumbnail                                        13000  15000  15000  15000  16000  18000  18000  18000  18000  18000  18000    228
+--------|--------------------------------------------------------------------------------|---------|------|------|------|------|------|------|------|------|------|------|------|
+ None     Aggregated                                                                          16000  20000  23000  43000  50000  50000  50000  50000  50000  50000  50000   1679
+
+Error report
+ # occurrences      Error                                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 59                 GET /records/[recordId]/comments: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='env15-olive.ftt2204.dabaas.net', port=443): Read timed out. (read timeout=50)"))
+ 56                 GET /records/[recordId]: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='env15-olive.ftt2204.dabaas.net', port=443): Read timed out. (read timeout=50)"))
+ 55                 GET /record-views/tomeActive: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='env15-olive.ftt2204.dabaas.net', port=443): Read timed out. (read timeout=50)"))
+ 26                 GET /record-views/allClosed: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='env15-olive.ftt2204.dabaas.net', port=443): Read timed out. (read timeout=50)"))
+ 18                 GET /record-views/allActive: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='env15-olive.ftt2204.dabaas.net', port=443): Read timed out. (read timeout=50)"))
+ 19                 GET /record-views/mineActive: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='env15-olive.ftt2204.dabaas.net', port=443): Read timed out. (read timeout=50)"))
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+GET:/categories                                  success:233 subtotal: 164
+POST:/files                                      success:140 subtotal: 210
+GET:/record-views/allActive                      success:42 subtotal: 84
+GET:/record-views/allClosed                      success:34 subtotal: 68
+GET:/record-views/mineActive                     success:41 subtotal: 62
+GET:/record-views/tomeActive                     success:5 subtotal: 15
+POST:/records                                    success:113 subtotal: 136
+GET:/records/[recordId]                          success:6 subtotal: 6
+PUT:/records/[recordId]                          success:231 subtotal: 185
+GET:/records/[recordId]/comments                 success:2 subtotal: 2
+POST:/records/[recordId]/comments                success:151 subtotal: 151
+GET:/records/[recordId]/files/[itemId]           success:220 subtotal: 220
+GET:/records/[recordId]/files/[itemId]/thumbnail success:228 subtotal: 228
+
+
+===============================================
+
+
+スコアは 1531 点
+
+
+===============================================
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   218    0     2  100   216     11   1285 --:--:-- --:--:-- --:--:--  1289
+{}

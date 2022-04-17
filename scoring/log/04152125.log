@@ -1,0 +1,269 @@
+データベースをリストアします...
+'/da/mysql' -> '../../volume/mysql'
+'/da/mysql/auto.cnf' -> '../../volume/mysql/auto.cnf'
+'/da/mysql/ib_buffer_pool' -> '../../volume/mysql/ib_buffer_pool'
+'/da/mysql/ibdata1' -> '../../volume/mysql/ibdata1'
+'/da/mysql/ib_logfile0' -> '../../volume/mysql/ib_logfile0'
+'/da/mysql/ib_logfile1' -> '../../volume/mysql/ib_logfile1'
+'/da/mysql/#ib_16384_0.dblwr' -> '../../volume/mysql/#ib_16384_0.dblwr'
+'/da/mysql/#ib_16384_1.dblwr' -> '../../volume/mysql/#ib_16384_1.dblwr'
+'/da/mysql/mysql.ibd' -> '../../volume/mysql/mysql.ibd'
+'/da/mysql/undo_001' -> '../../volume/mysql/undo_001'
+'/da/mysql/mysql' -> '../../volume/mysql/mysql'
+'/da/mysql/mysql/general_log_213.sdi' -> '../../volume/mysql/mysql/general_log_213.sdi'
+'/da/mysql/mysql/general_log.CSM' -> '../../volume/mysql/mysql/general_log.CSM'
+'/da/mysql/mysql/general_log.CSV' -> '../../volume/mysql/mysql/general_log.CSV'
+'/da/mysql/mysql/slow_log_214.sdi' -> '../../volume/mysql/mysql/slow_log_214.sdi'
+'/da/mysql/mysql/slow_log.CSM' -> '../../volume/mysql/mysql/slow_log.CSM'
+'/da/mysql/mysql/slow_log.CSV' -> '../../volume/mysql/mysql/slow_log.CSV'
+'/da/mysql/undo_002' -> '../../volume/mysql/undo_002'
+'/da/mysql/#innodb_temp' -> '../../volume/mysql/#innodb_temp'
+'/da/mysql/#innodb_temp/temp_1.ibt' -> '../../volume/mysql/#innodb_temp/temp_1.ibt'
+'/da/mysql/#innodb_temp/temp_2.ibt' -> '../../volume/mysql/#innodb_temp/temp_2.ibt'
+'/da/mysql/#innodb_temp/temp_3.ibt' -> '../../volume/mysql/#innodb_temp/temp_3.ibt'
+'/da/mysql/#innodb_temp/temp_4.ibt' -> '../../volume/mysql/#innodb_temp/temp_4.ibt'
+'/da/mysql/#innodb_temp/temp_5.ibt' -> '../../volume/mysql/#innodb_temp/temp_5.ibt'
+'/da/mysql/#innodb_temp/temp_6.ibt' -> '../../volume/mysql/#innodb_temp/temp_6.ibt'
+'/da/mysql/#innodb_temp/temp_7.ibt' -> '../../volume/mysql/#innodb_temp/temp_7.ibt'
+'/da/mysql/#innodb_temp/temp_8.ibt' -> '../../volume/mysql/#innodb_temp/temp_8.ibt'
+'/da/mysql/#innodb_temp/temp_9.ibt' -> '../../volume/mysql/#innodb_temp/temp_9.ibt'
+'/da/mysql/#innodb_temp/temp_10.ibt' -> '../../volume/mysql/#innodb_temp/temp_10.ibt'
+'/da/mysql/ibtmp1' -> '../../volume/mysql/ibtmp1'
+'/da/mysql/performance_schema' -> '../../volume/mysql/performance_schema'
+'/da/mysql/performance_schema/cond_instances_82.sdi' -> '../../volume/mysql/performance_schema/cond_instances_82.sdi'
+'/da/mysql/performance_schema/error_log_83.sdi' -> '../../volume/mysql/performance_schema/error_log_83.sdi'
+'/da/mysql/performance_schema/events_waits_cur_84.sdi' -> '../../volume/mysql/performance_schema/events_waits_cur_84.sdi'
+'/da/mysql/performance_schema/events_waits_his_85.sdi' -> '../../volume/mysql/performance_schema/events_waits_his_85.sdi'
+'/da/mysql/performance_schema/events_waits_his_86.sdi' -> '../../volume/mysql/performance_schema/events_waits_his_86.sdi'
+'/da/mysql/performance_schema/events_waits_sum_87.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_87.sdi'
+'/da/mysql/performance_schema/events_waits_sum_88.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_88.sdi'
+'/da/mysql/performance_schema/events_waits_sum_89.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_89.sdi'
+'/da/mysql/performance_schema/events_waits_sum_90.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_90.sdi'
+'/da/mysql/performance_schema/events_waits_sum_91.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_91.sdi'
+'/da/mysql/performance_schema/events_waits_sum_92.sdi' -> '../../volume/mysql/performance_schema/events_waits_sum_92.sdi'
+'/da/mysql/performance_schema/file_instances_93.sdi' -> '../../volume/mysql/performance_schema/file_instances_93.sdi'
+'/da/mysql/performance_schema/file_summary_by__94.sdi' -> '../../volume/mysql/performance_schema/file_summary_by__94.sdi'
+'/da/mysql/performance_schema/file_summary_by__95.sdi' -> '../../volume/mysql/performance_schema/file_summary_by__95.sdi'
+'/da/mysql/performance_schema/host_cache_96.sdi' -> '../../volume/mysql/performance_schema/host_cache_96.sdi'
+'/da/mysql/performance_schema/mutex_instances_97.sdi' -> '../../volume/mysql/performance_schema/mutex_instances_97.sdi'
+'/da/mysql/performance_schema/objects_summary__98.sdi' -> '../../volume/mysql/performance_schema/objects_summary__98.sdi'
+'/da/mysql/performance_schema/performance_time_99.sdi' -> '../../volume/mysql/performance_schema/performance_time_99.sdi'
+'/da/mysql/performance_schema/processlist_100.sdi' -> '../../volume/mysql/performance_schema/processlist_100.sdi'
+'/da/mysql/performance_schema/rwlock_instances_101.sdi' -> '../../volume/mysql/performance_schema/rwlock_instances_101.sdi'
+'/da/mysql/performance_schema/setup_actors_102.sdi' -> '../../volume/mysql/performance_schema/setup_actors_102.sdi'
+'/da/mysql/performance_schema/setup_consumers_103.sdi' -> '../../volume/mysql/performance_schema/setup_consumers_103.sdi'
+'/da/mysql/performance_schema/setup_instrument_104.sdi' -> '../../volume/mysql/performance_schema/setup_instrument_104.sdi'
+'/da/mysql/performance_schema/setup_objects_105.sdi' -> '../../volume/mysql/performance_schema/setup_objects_105.sdi'
+'/da/mysql/performance_schema/setup_threads_106.sdi' -> '../../volume/mysql/performance_schema/setup_threads_106.sdi'
+'/da/mysql/performance_schema/table_io_waits_s_107.sdi' -> '../../volume/mysql/performance_schema/table_io_waits_s_107.sdi'
+'/da/mysql/performance_schema/table_io_waits_s_108.sdi' -> '../../volume/mysql/performance_schema/table_io_waits_s_108.sdi'
+'/da/mysql/performance_schema/table_lock_waits_109.sdi' -> '../../volume/mysql/performance_schema/table_lock_waits_109.sdi'
+'/da/mysql/performance_schema/threads_110.sdi' -> '../../volume/mysql/performance_schema/threads_110.sdi'
+'/da/mysql/performance_schema/events_stages_cu_111.sdi' -> '../../volume/mysql/performance_schema/events_stages_cu_111.sdi'
+'/da/mysql/performance_schema/events_stages_hi_112.sdi' -> '../../volume/mysql/performance_schema/events_stages_hi_112.sdi'
+'/da/mysql/performance_schema/events_stages_hi_113.sdi' -> '../../volume/mysql/performance_schema/events_stages_hi_113.sdi'
+'/da/mysql/performance_schema/events_stages_su_114.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_114.sdi'
+'/da/mysql/performance_schema/events_stages_su_115.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_115.sdi'
+'/da/mysql/performance_schema/events_stages_su_116.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_116.sdi'
+'/da/mysql/performance_schema/events_stages_su_117.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_117.sdi'
+'/da/mysql/performance_schema/events_stages_su_118.sdi' -> '../../volume/mysql/performance_schema/events_stages_su_118.sdi'
+'/da/mysql/performance_schema/events_statement_119.sdi' -> '../../volume/mysql/performance_schema/events_statement_119.sdi'
+'/da/mysql/performance_schema/events_statement_120.sdi' -> '../../volume/mysql/performance_schema/events_statement_120.sdi'
+'/da/mysql/performance_schema/events_statement_121.sdi' -> '../../volume/mysql/performance_schema/events_statement_121.sdi'
+'/da/mysql/performance_schema/events_statement_125.sdi' -> '../../volume/mysql/performance_schema/events_statement_125.sdi'
+'/da/mysql/performance_schema/events_statement_126.sdi' -> '../../volume/mysql/performance_schema/events_statement_126.sdi'
+'/da/mysql/performance_schema/events_statement_122.sdi' -> '../../volume/mysql/performance_schema/events_statement_122.sdi'
+'/da/mysql/performance_schema/events_statement_123.sdi' -> '../../volume/mysql/performance_schema/events_statement_123.sdi'
+'/da/mysql/performance_schema/events_statement_124.sdi' -> '../../volume/mysql/performance_schema/events_statement_124.sdi'
+'/da/mysql/performance_schema/events_statement_127.sdi' -> '../../volume/mysql/performance_schema/events_statement_127.sdi'
+'/da/mysql/performance_schema/events_statement_128.sdi' -> '../../volume/mysql/performance_schema/events_statement_128.sdi'
+'/da/mysql/performance_schema/events_statement_129.sdi' -> '../../volume/mysql/performance_schema/events_statement_129.sdi'
+'/da/mysql/performance_schema/events_statement_130.sdi' -> '../../volume/mysql/performance_schema/events_statement_130.sdi'
+'/da/mysql/performance_schema/events_transacti_131.sdi' -> '../../volume/mysql/performance_schema/events_transacti_131.sdi'
+'/da/mysql/performance_schema/events_transacti_132.sdi' -> '../../volume/mysql/performance_schema/events_transacti_132.sdi'
+'/da/mysql/performance_schema/events_transacti_133.sdi' -> '../../volume/mysql/performance_schema/events_transacti_133.sdi'
+'/da/mysql/performance_schema/events_transacti_134.sdi' -> '../../volume/mysql/performance_schema/events_transacti_134.sdi'
+'/da/mysql/performance_schema/events_transacti_135.sdi' -> '../../volume/mysql/performance_schema/events_transacti_135.sdi'
+'/da/mysql/performance_schema/events_transacti_136.sdi' -> '../../volume/mysql/performance_schema/events_transacti_136.sdi'
+'/da/mysql/performance_schema/events_transacti_137.sdi' -> '../../volume/mysql/performance_schema/events_transacti_137.sdi'
+'/da/mysql/performance_schema/events_transacti_138.sdi' -> '../../volume/mysql/performance_schema/events_transacti_138.sdi'
+'/da/mysql/performance_schema/events_errors_su_139.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_139.sdi'
+'/da/mysql/performance_schema/events_errors_su_140.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_140.sdi'
+'/da/mysql/performance_schema/events_errors_su_141.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_141.sdi'
+'/da/mysql/performance_schema/events_errors_su_142.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_142.sdi'
+'/da/mysql/performance_schema/events_errors_su_143.sdi' -> '../../volume/mysql/performance_schema/events_errors_su_143.sdi'
+'/da/mysql/performance_schema/users_144.sdi' -> '../../volume/mysql/performance_schema/users_144.sdi'
+'/da/mysql/performance_schema/accounts_145.sdi' -> '../../volume/mysql/performance_schema/accounts_145.sdi'
+'/da/mysql/performance_schema/hosts_146.sdi' -> '../../volume/mysql/performance_schema/hosts_146.sdi'
+'/da/mysql/performance_schema/socket_instances_147.sdi' -> '../../volume/mysql/performance_schema/socket_instances_147.sdi'
+'/da/mysql/performance_schema/socket_summary_b_148.sdi' -> '../../volume/mysql/performance_schema/socket_summary_b_148.sdi'
+'/da/mysql/performance_schema/socket_summary_b_149.sdi' -> '../../volume/mysql/performance_schema/socket_summary_b_149.sdi'
+'/da/mysql/performance_schema/session_connect__150.sdi' -> '../../volume/mysql/performance_schema/session_connect__150.sdi'
+'/da/mysql/performance_schema/session_account__151.sdi' -> '../../volume/mysql/performance_schema/session_account__151.sdi'
+'/da/mysql/performance_schema/keyring_keys_152.sdi' -> '../../volume/mysql/performance_schema/keyring_keys_152.sdi'
+'/da/mysql/performance_schema/memory_summary_g_153.sdi' -> '../../volume/mysql/performance_schema/memory_summary_g_153.sdi'
+'/da/mysql/performance_schema/memory_summary_b_154.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_154.sdi'
+'/da/mysql/performance_schema/memory_summary_b_155.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_155.sdi'
+'/da/mysql/performance_schema/memory_summary_b_156.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_156.sdi'
+'/da/mysql/performance_schema/memory_summary_b_157.sdi' -> '../../volume/mysql/performance_schema/memory_summary_b_157.sdi'
+'/da/mysql/performance_schema/table_handles_158.sdi' -> '../../volume/mysql/performance_schema/table_handles_158.sdi'
+'/da/mysql/performance_schema/metadata_locks_159.sdi' -> '../../volume/mysql/performance_schema/metadata_locks_159.sdi'
+'/da/mysql/performance_schema/data_locks_160.sdi' -> '../../volume/mysql/performance_schema/data_locks_160.sdi'
+'/da/mysql/performance_schema/data_lock_waits_161.sdi' -> '../../volume/mysql/performance_schema/data_lock_waits_161.sdi'
+'/da/mysql/performance_schema/replication_conn_162.sdi' -> '../../volume/mysql/performance_schema/replication_conn_162.sdi'
+'/da/mysql/performance_schema/replication_grou_163.sdi' -> '../../volume/mysql/performance_schema/replication_grou_163.sdi'
+'/da/mysql/performance_schema/replication_conn_164.sdi' -> '../../volume/mysql/performance_schema/replication_conn_164.sdi'
+'/da/mysql/performance_schema/replication_appl_165.sdi' -> '../../volume/mysql/performance_schema/replication_appl_165.sdi'
+'/da/mysql/performance_schema/replication_appl_166.sdi' -> '../../volume/mysql/performance_schema/replication_appl_166.sdi'
+'/da/mysql/performance_schema/replication_appl_167.sdi' -> '../../volume/mysql/performance_schema/replication_appl_167.sdi'
+'/da/mysql/performance_schema/replication_appl_168.sdi' -> '../../volume/mysql/performance_schema/replication_appl_168.sdi'
+'/da/mysql/performance_schema/replication_grou_169.sdi' -> '../../volume/mysql/performance_schema/replication_grou_169.sdi'
+'/da/mysql/performance_schema/replication_appl_170.sdi' -> '../../volume/mysql/performance_schema/replication_appl_170.sdi'
+'/da/mysql/performance_schema/replication_appl_171.sdi' -> '../../volume/mysql/performance_schema/replication_appl_171.sdi'
+'/da/mysql/performance_schema/replication_asyn_172.sdi' -> '../../volume/mysql/performance_schema/replication_asyn_172.sdi'
+'/da/mysql/performance_schema/replication_asyn_173.sdi' -> '../../volume/mysql/performance_schema/replication_asyn_173.sdi'
+'/da/mysql/performance_schema/log_status_174.sdi' -> '../../volume/mysql/performance_schema/log_status_174.sdi'
+'/da/mysql/performance_schema/prepared_stateme_175.sdi' -> '../../volume/mysql/performance_schema/prepared_stateme_175.sdi'
+'/da/mysql/performance_schema/user_variables_b_176.sdi' -> '../../volume/mysql/performance_schema/user_variables_b_176.sdi'
+'/da/mysql/performance_schema/status_by_accoun_177.sdi' -> '../../volume/mysql/performance_schema/status_by_accoun_177.sdi'
+'/da/mysql/performance_schema/status_by_host_178.sdi' -> '../../volume/mysql/performance_schema/status_by_host_178.sdi'
+'/da/mysql/performance_schema/status_by_thread_179.sdi' -> '../../volume/mysql/performance_schema/status_by_thread_179.sdi'
+'/da/mysql/performance_schema/status_by_user_180.sdi' -> '../../volume/mysql/performance_schema/status_by_user_180.sdi'
+'/da/mysql/performance_schema/global_status_181.sdi' -> '../../volume/mysql/performance_schema/global_status_181.sdi'
+'/da/mysql/performance_schema/session_status_182.sdi' -> '../../volume/mysql/performance_schema/session_status_182.sdi'
+'/da/mysql/performance_schema/variables_by_thr_183.sdi' -> '../../volume/mysql/performance_schema/variables_by_thr_183.sdi'
+'/da/mysql/performance_schema/global_variables_184.sdi' -> '../../volume/mysql/performance_schema/global_variables_184.sdi'
+'/da/mysql/performance_schema/session_variable_185.sdi' -> '../../volume/mysql/performance_schema/session_variable_185.sdi'
+'/da/mysql/performance_schema/variables_info_186.sdi' -> '../../volume/mysql/performance_schema/variables_info_186.sdi'
+'/da/mysql/performance_schema/persisted_variab_187.sdi' -> '../../volume/mysql/performance_schema/persisted_variab_187.sdi'
+'/da/mysql/performance_schema/user_defined_fun_188.sdi' -> '../../volume/mysql/performance_schema/user_defined_fun_188.sdi'
+'/da/mysql/performance_schema/binary_log_trans_189.sdi' -> '../../volume/mysql/performance_schema/binary_log_trans_189.sdi'
+'/da/mysql/performance_schema/tls_channel_stat_190.sdi' -> '../../volume/mysql/performance_schema/tls_channel_stat_190.sdi'
+'/da/mysql/performance_schema/keyring_componen_191.sdi' -> '../../volume/mysql/performance_schema/keyring_componen_191.sdi'
+'/da/mysql/ca-key.pem' -> '../../volume/mysql/ca-key.pem'
+'/da/mysql/client-cert.pem' -> '../../volume/mysql/client-cert.pem'
+'/da/mysql/private_key.pem' -> '../../volume/mysql/private_key.pem'
+'/da/mysql/ca.pem' -> '../../volume/mysql/ca.pem'
+'/da/mysql/server-key.pem' -> '../../volume/mysql/server-key.pem'
+'/da/mysql/server-cert.pem' -> '../../volume/mysql/server-cert.pem'
+'/da/mysql/client-key.pem' -> '../../volume/mysql/client-key.pem'
+'/da/mysql/public_key.pem' -> '../../volume/mysql/public_key.pem'
+'/da/mysql/sys' -> '../../volume/mysql/sys'
+'/da/mysql/sys/sys_config.ibd' -> '../../volume/mysql/sys/sys_config.ibd'
+'/da/mysql/binlog.000002' -> '../../volume/mysql/binlog.000002'
+'/da/mysql/binlog.000001' -> '../../volume/mysql/binlog.000001'
+'/da/mysql/app' -> '../../volume/mysql/app'
+'/da/mysql/app/user.ibd' -> '../../volume/mysql/app/user.ibd'
+'/da/mysql/app/group_info.ibd' -> '../../volume/mysql/app/group_info.ibd'
+'/da/mysql/app/group_member.ibd' -> '../../volume/mysql/app/group_member.ibd'
+'/da/mysql/app/record.ibd' -> '../../volume/mysql/app/record.ibd'
+'/da/mysql/app/record_item_file.ibd' -> '../../volume/mysql/app/record_item_file.ibd'
+'/da/mysql/app/record_last_access.ibd' -> '../../volume/mysql/app/record_last_access.ibd'
+'/da/mysql/app/record_comment.ibd' -> '../../volume/mysql/app/record_comment.ibd'
+'/da/mysql/app/category.ibd' -> '../../volume/mysql/app/category.ibd'
+'/da/mysql/app/category_group.ibd' -> '../../volume/mysql/app/category_group.ibd'
+'/da/mysql/app/session.ibd' -> '../../volume/mysql/app/session.ibd'
+'/da/mysql/app/file.ibd' -> '../../volume/mysql/app/file.ibd'
+'/da/mysql/next.dbm' -> '../../volume/mysql/next.dbm'
+'/da/mysql/binlog.000003' -> '../../volume/mysql/binlog.000003'
+'/da/mysql/binlog.index' -> '../../volume/mysql/binlog.index'
+ファイルをリストアします...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+mysqlコンテナの起動を待機しています...
+V1.sqlはありません。
+
+
+== APIテスト開始。 == 
+
+
+
+1.カテゴリーの取得(申請時のカテゴリー一覧が正しく取得できること): START
+
+・カテゴリー一覧を取得します。
+
+=> OK
+
+2.文書の申請と閲覧(申請内容が正しく閲覧できること): START
+
+・添付ファイルをアップロードします。
+・文書を登録します。
+・文書を閲覧します。
+・添付ファイルを確認します。
+
+=> OK
+
+3.コメントの投稿と取得(文書へのコメント投稿およびその内容が正しく取得できること): START
+
+・コメントします。
+・コメントを確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+
+=> OK
+
+4.文書一覧(タブごとに正しく文書のフィルター&並び替え&情報の表示ができること): START
+
+・一覧表示のための初期化をします。
+・文書をクローズします。
+・全件を確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・自分が申請を確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・クローズ済みを確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・自分宛を確認します。
+items配列の件数をチェックします。
+items配列の各要素をチェックします。
+・事前データを検証をします。
+
+=> OK
+
+5.細部の確認: START
+
+細部をチェックします。
+
+=> OK
+
+
+== APIテスト完了。 結果: OK ==
+
+
+GET:/categories                                  success:10 subtotal: 7
+POST:/files                                      success:2 subtotal: 3
+GET:/record-views/allActive                      success:0 subtotal: 0
+GET:/record-views/allClosed                      success:0 subtotal: 0
+GET:/record-views/mineActive                     success:0 subtotal: 0
+GET:/record-views/tomeActive                     success:0 subtotal: 0
+POST:/records                                    success:2 subtotal: 3
+GET:/records/[recordId]                          success:0 subtotal: 0
+PUT:/records/[recordId]                          success:11 subtotal: 9
+GET:/records/[recordId]/comments                 success:0 subtotal: 0
+POST:/records/[recordId]/comments                success:4 subtotal: 4
+GET:/records/[recordId]/files/[itemId]           success:8 subtotal: 8
+GET:/records/[recordId]/files/[itemId]/thumbnail success:8 subtotal: 8
+
+
+===============================================
+
+
+スコアは 42 点
+
+
+===============================================
+
+
+{}
